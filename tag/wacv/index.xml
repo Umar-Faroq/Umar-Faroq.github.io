@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WACV | Min-Hung Chen</title><link>https://minhungchen.netlify.app/tag/wacv/</link><atom:link href="https://minhungchen.netlify.app/tag/wacv/index.xml" rel="self" type="application/rss+xml"/><description>WACV</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Min-Hung Chen</copyright><lastBuildDate>Thu, 25 Jun 2020 00:00:00 +0000</lastBuildDate><image><url>https://minhungchen.netlify.app/img/authors/head_me.jpg</url><title>WACV</title><link>https://minhungchen.netlify.app/tag/wacv/</link></image><item><title>Action Segmentation with Temporal Domain Adaptation</title><link>https://minhungchen.netlify.app/project/cdas/</link><pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate><guid>https://minhungchen.netlify.app/project/cdas/</guid><description>&lt;h2 id="motivation">Motivation&lt;/h2>
+&lt;p>Despite the recent progress of fully-supervised action segmentation techniques, the performance is still not fully satisfactory.
+Exploiting larger-scale labeled data and designing more complicated architectures result in additional annotation and computation costs.
+Therefore, we aim to exploit auxiliary unlabeled videos, which are
+comparatively easy to obtain, to improve the performance.&lt;/p>
+&lt;hr>
+&lt;h2 id="challenges">Challenges&lt;/h2>
+&lt;p>One main challenge of utilizing unlabeled videos is the problem of &lt;strong>spatio-temporal variations&lt;/strong>. For example, different people may &lt;em>make tea&lt;/em> in different personalized styles even if the given recipe is the same. The intra-class variations cause degraded performance by directly deploying a model trained with different groups of people.&lt;/p>
+&lt;hr>
+&lt;h2 id="our-approaches">Our Approaches&lt;/h2>
+&lt;p>We exploit unlabeled videos to address this problem by reformulating the action segmentation task as a cross-domain problem with domain discrepancy caused by spatio-temporal variations. &lt;br>
+To reduce the discrepancy, we propose two approaches:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Mixed Temporal Domain Adaptation (MTDA)&lt;/strong>: align the features embedded with local and global temporal dynamics.
+&lt;figure >
+&lt;a data-fancybox="" href="https://minhungchen.netlify.app/project/cdas/approach_MTDA_hucffefdbeb1823fdb487e1b3e7c55d0f8_535391_2000x2000_fit_lanczos_2.png" >
+&lt;img data-src="https://minhungchen.netlify.app/project/cdas/approach_MTDA_hucffefdbeb1823fdb487e1b3e7c55d0f8_535391_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="70%" height="739">
+&lt;/a>
+&lt;/figure>
+&lt;/li>
+&lt;li>&lt;strong>Self-Supervised Temporal Domain Adaptation (SSTDA)&lt;/strong>: align the feature spaces across multiple temporal scales with self-supervised learning.
+&lt;figure >
+&lt;a data-fancybox="" href="https://minhungchen.netlify.app/project/cdas/approach_SSTDA_hu576d5af5b9c05786c04595278edfc0cf_152205_2000x2000_fit_lanczos_2.png" >
+&lt;img data-src="https://minhungchen.netlify.app/project/cdas/approach_SSTDA_hu576d5af5b9c05786c04595278edfc0cf_152205_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="100%" height="624">
+&lt;/a>
+&lt;/figure>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="results">Results&lt;/h2>
+&lt;p>We evaluate three challenging benchmark datasets: &lt;strong>GTEA&lt;/strong>, &lt;strong>50Salads&lt;/strong>, and &lt;strong>Breakfast&lt;/strong>, and achieve the follows:&lt;/p>
+&lt;ul>
+&lt;li>Outperform other Domain Adaptation (DA) and video-based self-supervised approaches.
+&lt;figure id="figure-the-comparison-of-different-methods-that-can-learn-information-from-unlabeled-target-videos-on-gtea">
+&lt;a data-fancybox="" href="https://minhungchen.netlify.app/project/cdas/result_SSTDA_DA_hu461714772ec65b7d7fa817e5e0e7d2dd_84503_2000x2000_fit_lanczos_2.png" data-caption="The comparison of different methods that can learn information from unlabeled target videos (on GTEA).">
+&lt;img data-src="https://minhungchen.netlify.app/project/cdas/result_SSTDA_DA_hu461714772ec65b7d7fa817e5e0e7d2dd_84503_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="50%" height="361">
+&lt;/a>
+&lt;figcaption>
+The comparison of different methods that can learn information from unlabeled target videos (on GTEA).
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>Outperform the current state-of-the-art action segmentation methods by large margins.&lt;/li>
+&lt;li>Achieve comparable performance with fully-supervised methods using only 65% of the labeled training data.
+&lt;figure id="figure-comparison-with-the-most-recent-action-segmentation-methods-on-all-three-datasets">
+&lt;a data-fancybox="" href="https://minhungchen.netlify.app/project/cdas/result_SSTDA_SOTA_hu47e5dce5026a3482fb93f68f57e4d656_162875_2000x2000_fit_lanczos_2.png" data-caption="Comparison with the most recent action segmentation methods on all three datasets.">
+&lt;img data-src="https://minhungchen.netlify.app/project/cdas/result_SSTDA_SOTA_hu47e5dce5026a3482fb93f68f57e4d656_162875_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="50%" height="639">
+&lt;/a>
+&lt;figcaption>
+Comparison with the most recent action segmentation methods on all three datasets.
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure--the-visualization-of-temporal-action-segmentation-for-our-methods-with-color-coding-input-example-make-coffee">
+&lt;a data-fancybox="" href="https://minhungchen.netlify.app/project/cdas/result_SSTDA_visualization_hude82285d87074eb140b18b35b3cd7515_99399_2000x2000_fit_lanczos_2.png" data-caption="The visualization of temporal action segmentation for our methods with color-coding (input example: make coffee)">
+&lt;img data-src="https://minhungchen.netlify.app/project/cdas/result_SSTDA_visualization_hude82285d87074eb140b18b35b3cd7515_99399_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="100%" height="310">
+&lt;/a>
+&lt;figcaption>
+The visualization of temporal action segmentation for our methods with color-coding (input example: make coffee)
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ul>
+&lt;p>Please check our
+&lt;a href="https://arxiv.org/pdf/2003.02824.pdf" target="_blank" rel="noopener">papers&lt;/a> for more results.&lt;/p>
+&lt;hr>
+&lt;h2 id="videos">Videos&lt;/h2>
+&lt;p>Overview Introduction:
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/HxPYhOZco-4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;p>CVPR'20 Presentation (1-min):
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/sKCXZksFOWA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;p>CVPR'20 Presentation (5-min):
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/16OTdVeKahs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;p>WACV'20 Presentation:
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/RkdhHDvj4UA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;hr>
+&lt;h2 id="resources">Resources&lt;/h2>
+&lt;h4 id="papers--code">Papers &amp;amp; Code&lt;/h4>
+&lt;p>
+&lt;a href="https://github.com/cmhungsteve/SSTDA" target="_blank" rel="noopener">
+&lt;figure id="figure-codehttpsgithubcomcmhungstevesstda">
+&lt;img src="https://minhungchen.netlify.app/img/github_icon.png" alt="" width="15%" >
+&lt;figcaption>
+&lt;a href="https://github.com/cmhungsteve/SSTDA">&lt;strong>Code&lt;/strong>&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;a href="https://arxiv.org/pdf/2003.02824.pdf" target="_blank" rel="noopener">
+&lt;figure id="figure-cvpr20httpsarxivorgpdf200302824pdf">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="20%" >
+&lt;figcaption>
+&lt;a href="https://arxiv.org/pdf/2003.02824.pdf">CVPR'20&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="http://openaccess.thecvf.com/content_WACV_2020/papers/Chen_Action_Segmentation_with_Mixed_Temporal_Domain_Adaptation_WACV_2020_paper.pdf" target="_blank" rel="noopener">
+&lt;figure id="figure-wacv20httpopenaccessthecvfcomcontent_wacv_2020paperschen_action_segmentation_with_mixed_temporal_domain_adaptation_wacv_2020_paperpdf">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="20%" >
+&lt;figcaption>
+&lt;a href="http://openaccess.thecvf.com/content_WACV_2020/papers/Chen_Action_Segmentation_with_Mixed_Temporal_Domain_Adaptation_WACV_2020_paper.pdf">WACV'20&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h4 id="presentations">Presentations&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;a href="https://www.dropbox.com/s/4cwnwxsqp98mnwf/Oral_SSTDA_CVPR_2020_mute.pdf?dl=0" target="_blank" rel="noopener">
+&lt;figure id="figure-slides-cvpr20">
+&lt;img data-src="https://minhungchen.netlify.app/project/cdas/slides_CVPR2020_5min_hua8f37129a31f67c12b56cbe76af8ec8b_289280_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="80%" height="720">
+&lt;figcaption>
+Slides (CVPR'20)
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.dropbox.com/s/bvkt581lk049zrl/Oral_MTDA_WACV_2020_mute.pdf?dl=0" target="_blank" rel="noopener">
+&lt;figure id="figure-slides-wacv20">
+&lt;img data-src="https://minhungchen.netlify.app/project/cdas/slides_WACV2020_hu90267c901349e116f78bd18d30269522_68620_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="80%" height="720">
+&lt;figcaption>
+Slides (WACV'20)
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;a href="https://www.dropbox.com/s/83sj8yf9b9a9qtq/CVPR2020_Steve_SSTDA_poster_v1.pdf?dl=0" target="_blank" rel="noopener">
+&lt;figure id="figure-poster-cvpr20">
+&lt;a data-fancybox="" href="https://minhungchen.netlify.app/project/cdas/poster_CVPR2020_hucd8598a49fd7bde93d2d4b609b38c663_3490067_2000x2000_fit_lanczos_2.png" data-caption="Poster (CVPR&amp;#39;20)">
+&lt;img data-src="https://minhungchen.netlify.app/project/cdas/poster_CVPR2020_hucd8598a49fd7bde93d2d4b609b38c663_3490067_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="80%" height="2256">
+&lt;/a>
+&lt;figcaption>
+Poster (CVPR'20)
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.dropbox.com/s/yzj25ok1ojb4qwn/WACV2020_Steve_MTDA_poster_v1.pdf?dl=0" target="_blank" rel="noopener">
+&lt;figure id="figure-poster-wacv20">
+&lt;a data-fancybox="" href="https://minhungchen.netlify.app/project/cdas/poster_WACV2020_hu9313cdbd3861dca886f5c015f7c05644_2452412_2000x2000_fit_lanczos_2.png" data-caption="Poster (WACV&amp;#39;20)">
+&lt;img data-src="https://minhungchen.netlify.app/project/cdas/poster_WACV2020_hu9313cdbd3861dca886f5c015f7c05644_2452412_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="80%" height="2256">
+&lt;/a>
+&lt;figcaption>
+Poster (WACV'20)
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h4 id="other-links">Other Links&lt;/h4>
+&lt;ul>
+&lt;li>CVF Open Access
+[
+&lt;a href="http://openaccess.thecvf.com/content_CVPR_2020/html/Chen_Action_Segmentation_With_Joint_Self-Supervised_Temporal_Domain_Adaptation_CVPR_2020_paper.html" target="_blank" rel="noopener">CVPR'20&lt;/a> ]
+[
+&lt;a href="http://openaccess.thecvf.com/content_WACV_2020/html/Chen_Action_Segmentation_with_Mixed_Temporal_Domain_Adaptation_WACV_2020_paper.html" target="_blank" rel="noopener">WACV'20&lt;/a> ]&lt;/li>
+&lt;li>IEEE Xplore
+[
+&lt;a href="https://ieeexplore.ieee.org/document/9157452" target="_blank" rel="noopener">CVPR'20&lt;/a> ]
+[
+&lt;a href="https://ieeexplore.ieee.org/document/9093535" target="_blank" rel="noopener">WACV'20&lt;/a> ]&lt;/li>
+&lt;li>ML@GT [
+&lt;a href="https://mlgt-at-cvpr-2020.mailchimpsites.com/" target="_blank" rel="noopener">Article&lt;/a> ]&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="related-publications">Related Publications&lt;/h2>
+&lt;p>If you find this project useful, please cite our papers:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">&lt;strong>Min-Hung Chen&lt;/strong>&lt;/a>, Baopu Li, Yingze Bao, Ghassan AlRegib, and Zsolt Kira, &amp;ldquo;Action Segmentation with Joint Self-Supervised Temporal Domain Adaptation&amp;rdquo;,
+&lt;a href="http://cvpr2020.thecvf.com/" target="_blank" rel="noopener">&lt;em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)&lt;/em>, 2020&lt;/a>.&lt;/li>
+&lt;li>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">&lt;strong>Min-Hung Chen&lt;/strong>&lt;/a>, Baopu Li, Yingze Bao, and Ghassan AlRegib, &amp;ldquo;Action Segmentation with Mixed Temporal Domain Adaptation&amp;rdquo;,
+&lt;a href="http://wacv20.wacv.net/" target="_blank" rel="noopener">&lt;em>IEEE Winter Conference on Applications of Computer Vision (WACV)&lt;/em>, 2020&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h4 id="bibtex">BibTex&lt;/h4>
+&lt;pre>&lt;code>@inproceedings{chen2020action,
+title={Action Segmentation with Joint Self-Supervised Temporal Domain Adaptation},
+author={Chen, Min-Hung and Li, Baopu and Bao, Yingze and AlRegib, Ghassan and Kira, Zsolt},
+booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+year={2020}
+}
+@inproceedings{chen2020mixed,
+title={Action Segmentation with Mixed Temporal Domain Adaptation},
+author={Chen, Min-Hung and Li, Baopu and Bao, Yingze and AlRegib, Ghassan},
+booktitle={IEEE Winter Conference on Applications of Computer Vision (WACV)},
+year={2020}
+}
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h2 id="members">Members&lt;/h2>
+&lt;p>&lt;strong>&lt;sup>1&lt;/sup>Georgia Institute of Technology   &lt;sup>2&lt;/sup>Baidu USA &lt;br>&lt;/strong>
+*work done during an internship at Baidu USA&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">
+&lt;figure id="figure-min-hung-chensup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_me.jpg" alt="" width="100%" >
+&lt;figcaption>
+Min-Hung Chen&lt;sup>1&lt;/sup>*
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://dblp.org/pers/l/Li:Baopu.html" target="_blank" rel="noopener">
+&lt;figure id="figure-baopu-lisup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_bl.jpg" alt="" width="100%" >
+&lt;figcaption>
+Baopu Li&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://scholar.google.com/citations?hl=en&amp;amp;user=WiAQC68AAAAJ&amp;amp;view_op=list_works&amp;amp;sortby=pubdate" target="_blank" rel="noopener">
+&lt;figure id="figure-yingze-baosup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_yb.jpg" alt="" width="100%" >
+&lt;figcaption>
+Yingze Bao&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://ghassanalregib.info/" target="_blank" rel="noopener">
+&lt;figure id="figure-ghassan-alregibsup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_ga.jpg" alt="" width="100%" >
+&lt;figcaption>
+Ghassan AlRegib&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.cc.gatech.edu/~zk15/" target="_blank" rel="noopener">
+&lt;figure id="figure-zsolt-kirasup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_zk.jpg" alt="" width="100%" >
+&lt;figcaption>
+Zsolt Kira&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>Action Segmentation with Mixed Temporal Domain Adaptation</title><link>https://minhungchen.netlify.app/publication/mtda/</link><pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate><guid>https://minhungchen.netlify.app/publication/mtda/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdown slides feature.
+&lt;/div>
+&lt;/div>
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). -->
+&lt;h2 id="videos">Videos&lt;/h2>
+&lt;h2 id="hahahugoshortcode-s2-hbhb">
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/RkdhHDvj4UA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/h2>
+&lt;h2 id="resources">Resources&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;a href="http://openaccess.thecvf.com/content_WACV_2020/papers/Chen_Action_Segmentation_with_Mixed_Temporal_Domain_Adaptation_WACV_2020_paper.pdf" target="_blank" rel="noopener">
+&lt;figure id="figure-paperhttpopenaccessthecvfcomcontent_wacv_2020paperschen_action_segmentation_with_mixed_temporal_domain_adaptation_wacv_2020_paperpdf">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="40%" >
+&lt;figcaption>
+&lt;a href="http://openaccess.thecvf.com/content_WACV_2020/papers/Chen_Action_Segmentation_with_Mixed_Temporal_Domain_Adaptation_WACV_2020_paper.pdf">Paper&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.dropbox.com/s/24yi5ygs68mqbhc/Oral_MTDA_WACV_2020_mute.pdf?dl=0" target="_blank" rel="noopener">
+&lt;figure id="figure-slideshttpswwwdropboxcoms24yi5ygs68mqbhcoral_mtda_wacv_2020_mutepdfdl0">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="40%" >
+&lt;figcaption>
+&lt;a href="https://www.dropbox.com/s/24yi5ygs68mqbhc/Oral_MTDA_WACV_2020_mute.pdf?dl=0">Slides&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.dropbox.com/s/74or0hkkodhiqzc/WACV2020_Steve_MTDA_poster_v1.pdf?dl=0" target="_blank" rel="noopener">
+&lt;figure id="figure-posterhttpswwwdropboxcoms74or0hkkodhiqzcwacv2020_steve_mtda_poster_v1pdfdl0">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="40%" >
+&lt;figcaption>
+&lt;a href="https://www.dropbox.com/s/74or0hkkodhiqzc/WACV2020_Steve_MTDA_poster_v1.pdf?dl=0">Poster&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;p>Other Links:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="http://openaccess.thecvf.com/content_WACV_2020/html/Chen_Action_Segmentation_with_Mixed_Temporal_Domain_Adaptation_WACV_2020_paper.html" target="_blank" rel="noopener">CVF Open Access&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://ieeexplore.ieee.org/document/9093535" target="_blank" rel="noopener">IEEE Xplore&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="citation">Citation&lt;/h2>
+&lt;p>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">&lt;strong>Min-Hung Chen&lt;/strong>&lt;/a>,
+&lt;a href="https://dblp.org/pers/l/Li:Baopu.html" target="_blank" rel="noopener">Baopu Li&lt;/a>,
+&lt;a href="https://scholar.google.com/citations?user=WiAQC68AAAAJ" target="_blank" rel="noopener">Yingze Bao&lt;/a>, and
+&lt;a href="https://ghassanalregib.info/" target="_blank" rel="noopener">Ghassan AlRegib&lt;/a>, &amp;ldquo;Action Segmentation with Mixed Temporal Domain Adaptation&amp;rdquo;,
+&lt;a href="http://wacv20.wacv.net/" target="_blank" rel="noopener">&lt;em>IEEE Winter Conference on Applications of Computer Vision (WACV)&lt;/em>, 2020&lt;/a>.&lt;/p>
+&lt;h4 id="bibtex">BibTex&lt;/h4>
+&lt;pre>&lt;code>@inproceedings{chen2020mixed,
+title={Action Segmentation with Mixed Temporal Domain Adaptation},
+author={Chen, Min-Hung and Li, Baopu and Bao, Yingze and AlRegib, Ghassan},
+booktitle={IEEE Winter Conference on Applications of Computer Vision (WACV)},
+year={2020}
+}
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h2 id="members">Members&lt;/h2>
+&lt;p>&lt;strong>&lt;sup>1&lt;/sup>Georgia Institute of Technology   &lt;sup>2&lt;/sup>Baidu USA &lt;br>&lt;/strong>
+*work done during an internship at Baidu USA&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">
+&lt;figure id="figure-min-hung-chensup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_me.jpg" alt="" width="100%" >
+&lt;figcaption>
+Min-Hung Chen&lt;sup>1&lt;/sup>*
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://dblp.org/pers/l/Li:Baopu.html" target="_blank" rel="noopener">
+&lt;figure id="figure-baopu-lisup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_bl.jpg" alt="" width="100%" >
+&lt;figcaption>
+Baopu Li&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://scholar.google.com/citations?user=WiAQC68AAAAJ" target="_blank" rel="noopener">
+&lt;figure id="figure-yingze-baosup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_yb.jpg" alt="" width="100%" >
+&lt;figcaption>
+Yingze Bao&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://ghassanalregib.info/" target="_blank" rel="noopener">
+&lt;figure id="figure-ghassan-alregibsup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_ga.jpg" alt="" width="100%" >
+&lt;figcaption>
+Ghassan AlRegib&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item></channel></rss>

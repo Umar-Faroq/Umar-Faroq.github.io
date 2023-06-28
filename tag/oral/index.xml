@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Oral | Min-Hung Chen</title><link>https://minhungchen.netlify.app/tag/oral/</link><atom:link href="https://minhungchen.netlify.app/tag/oral/index.xml" rel="self" type="application/rss+xml"/><description>Oral</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Min-Hung Chen</copyright><lastBuildDate>Thu, 25 Jun 2020 00:00:00 +0000</lastBuildDate><image><url>https://minhungchen.netlify.app/img/authors/head_me.jpg</url><title>Oral</title><link>https://minhungchen.netlify.app/tag/oral/</link></image><item><title>Temporal Attentive Alignment for Video Domain Adaptation</title><link>https://minhungchen.netlify.app/project/cdar/</link><pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate><guid>https://minhungchen.netlify.app/project/cdar/</guid><description>&lt;h2 id="motivation">Motivation&lt;/h2>
+&lt;p>Although various image-based domain adaptation (DA) techniques have been proposed in recent years, domain shift in videos is still not well-explored. Furthermore, there do not exist well-organized datasets to evaluate and benchmark the performance of DA algorithms for videos. Therefore, new datasets and approaches for video DA are desired.&lt;/p>
+&lt;hr>
+&lt;h2 id="challenges">Challenges&lt;/h2>
+&lt;p>Videos can suffer from domain shift along both the spatial and temporal directions, bringing the need of alignment for embedded feature spaces along both directions. However, most DA approaches focus on spatial direction only.&lt;/p>
+&lt;hr>
+&lt;h2 id="our-approaches">Our Approaches&lt;/h2>
+&lt;p>We propose &lt;strong>Temporal Attentive Adversarial Adaptation Network (TA&lt;sup>3&lt;/sup>N)&lt;/strong> to simultaneously attend, align and learn temporal dynamics across domains. TA&lt;sup>3&lt;/sup>N contains the following components:&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>TemRelation module&lt;/em>: learn various local temporal features embedded with relation information in different temporal scales&lt;/li>
+&lt;li>&lt;em>Domain attention mechanism&lt;/em>: align local features with larger domain discrepancy (i.e. contribute more to the overall domain shift)
+&lt;ul>
+&lt;li>Assign local features with attention weights calculated using domain entropy&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;figure id="figure-the-domain-attention-mechanism-in-tasup3supn-thicker-arrows-correspond-to-larger-attention-weights">
+&lt;a data-fancybox="" href="https://minhungchen.netlify.app/project/cdar/approach_TA3N_huff70fa82cfaf62901a8cb74823d96b36_122314_2000x2000_fit_lanczos_2.png" data-caption="The domain attention mechanism in TA3N (Thicker arrows correspond to larger attention weights).">
+&lt;img data-src="https://minhungchen.netlify.app/project/cdar/approach_TA3N_huff70fa82cfaf62901a8cb74823d96b36_122314_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="100%" height="346">
+&lt;/a>
+&lt;figcaption>
+The domain attention mechanism in TA&lt;sup>3&lt;/sup>N (Thicker arrows correspond to larger attention weights).
+&lt;/figcaption>
+&lt;/figure>
+&lt;hr>
+&lt;h2 id="results">Results&lt;/h2>
+&lt;p>We evaluate both small- and large-scale datasets, and achieve the state-of-the-art performance:&lt;/p>
+&lt;ul>
+&lt;li>Quantitative results:
+&lt;figure id="figure-the-comparison-of-accuracy--with-other-approaches-on-_ucf-hmdbsubfullsub_-ucf----hmdb">
+&lt;a data-fancybox="" href="https://minhungchen.netlify.app/project/cdar/result_TA3N_quantitative_hu86af7cd341c815527e27bee7cb48f53f_82705_2000x2000_fit_lanczos_2.png" data-caption="The comparison of accuracy (%) with other approaches on UCF-HMDBfull (UCF &amp;ndash;&amp;gt; HMDB).">
+&lt;img data-src="https://minhungchen.netlify.app/project/cdar/result_TA3N_quantitative_hu86af7cd341c815527e27bee7cb48f53f_82705_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="50%" height="360">
+&lt;/a>
+&lt;figcaption>
+The comparison of accuracy (%) with other approaches on &lt;em>UCF-HMDB&lt;sub>full&lt;/sub>&lt;/em> (UCF &amp;ndash;&amp;gt; HMDB).
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>Qualitative results:
+&lt;figure id="figure-the-comparison-of-t-sne-visualization-between-image-based-da-and-our-approach-blue-source-orange-target">
+&lt;a data-fancybox="" href="https://minhungchen.netlify.app/project/cdar/result_TA3N_qualitative_hu52c64adb84bea465dcafc27d3d518cd8_157293_2000x2000_fit_lanczos_2.png" data-caption="The comparison of t-SNE visualization between image-based DA and our approach (blue: source, orange: target).">
+&lt;img data-src="https://minhungchen.netlify.app/project/cdar/result_TA3N_qualitative_hu52c64adb84bea465dcafc27d3d518cd8_157293_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="80%" height="391">
+&lt;/a>
+&lt;figcaption>
+The comparison of t-SNE visualization between image-based DA and our approach (blue: source, orange: target).
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ul>
+&lt;p>Please check our
+&lt;a href="https://arxiv.org/pdf/1907.12743.pdf" target="_blank" rel="noopener">paper&lt;/a> for more results.&lt;/p>
+&lt;hr>
+&lt;h2 id="videos">Videos&lt;/h2>
+&lt;p>ICCV'19 Oral Presentation (please turn on closed captions):
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/j9cDuzmpYP8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;p>ICCV'19 Oral Presentation (officially recorded):
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/8oUPyhwzIDo?start=6100&amp;amp;end=6395" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;hr>
+&lt;h2 id="resources">Resources&lt;/h2>
+&lt;h4 id="papers--code">Papers &amp;amp; Code&lt;/h4>
+&lt;p>
+&lt;a href="https://github.com/cmhungsteve/TA3N" target="_blank" rel="noopener">
+&lt;figure id="figure-codehttpsgithubcomcmhungsteveta3n">
+&lt;img src="https://minhungchen.netlify.app/img/github_icon.png" alt="" width="15%" >
+&lt;figcaption>
+&lt;a href="https://github.com/cmhungsteve/TA3N">&lt;strong>Code&lt;/strong>&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;a href="https://arxiv.org/pdf/1907.12743.pdf" target="_blank" rel="noopener">
+&lt;figure id="figure-iccv19httpsarxivorgpdf190712743pdf">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="20%" >
+&lt;figcaption>
+&lt;a href="https://arxiv.org/pdf/1907.12743.pdf">ICCV'19&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://arxiv.org/pdf/1905.10861.pdf" target="_blank" rel="noopener">
+&lt;figure id="figure-cvprw19httpsarxivorgpdf190510861pdf">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="20%" >
+&lt;figcaption>
+&lt;a href="https://arxiv.org/pdf/1905.10861.pdf">CVPRW'19&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h4 id="presentations">Presentations&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;a href="https://www.dropbox.com/s/7p1u8yro9hqseac/Oral_TA3N_ICCV_2019_mute.pdf?dl=0" target="_blank" rel="noopener">
+&lt;figure id="figure-slides-iccv19">
+&lt;img data-src="https://minhungchen.netlify.app/project/cdar/slides_ICCV2019_hubefd42348ee7371b35905da2500f1e83_82332_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="100%" height="720">
+&lt;figcaption>
+Slides (ICCV'19)
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.dropbox.com/s/nsb9bdfaz03mjv2/ICCV2019_Steve_TA3N_poster_v1_2.pdf?dl=0" target="_blank" rel="noopener">
+&lt;figure id="figure-poster-iccv19">
+&lt;a data-fancybox="" href="https://minhungchen.netlify.app/project/cdar/poster_ICCV2019_hub6005853782b9081f07ee0575514bfea_1443480_2000x2000_fit_lanczos_2.png" data-caption="Poster (ICCV&amp;#39;19)">
+&lt;img data-src="https://minhungchen.netlify.app/project/cdar/poster_ICCV2019_hub6005853782b9081f07ee0575514bfea_1443480_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="70%" height="1776">
+&lt;/a>
+&lt;figcaption>
+Poster (ICCV'19)
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h4 id="other-links">Other Links&lt;/h4>
+&lt;ul>
+&lt;li>CVF Open Access
+[
+&lt;a href="http://openaccess.thecvf.com/content_ICCV_2019/html/Chen_Temporal_Attentive_Alignment_for_Large-Scale_Video_Domain_Adaptation_ICCV_2019_paper.html" target="_blank" rel="noopener">ICCV'19&lt;/a> ]&lt;/li>
+&lt;li>IEEE Xplore
+[
+&lt;a href="https://ieeexplore.ieee.org/document/9008391" target="_blank" rel="noopener">ICCV'19&lt;/a> ]&lt;/li>
+&lt;li>The workshop on Learning from Unlabeled Videos (LUV)
+[
+&lt;a href="https://sites.google.com/view/luv2019/program" target="_blank" rel="noopener">CVPRW'19&lt;/a> ]&lt;/li>
+&lt;li>ML@GT [
+&lt;a href="https://mlatgt.blog/2019/09/10/overcoming-large-scale-annotation-requirements-for-understanding-videos-in-the-wild" target="_blank" rel="noopener">Blog&lt;/a> ][
+&lt;a href="https://mailchi.mp/4ed0cbf6a67d/iccv2019" target="_blank" rel="noopener">Article&lt;/a> ]&lt;/li>
+&lt;/ul>
+&lt;h4 id="datasets">Datasets&lt;/h4>
+&lt;p>We propose two large-scale cross-domain action recognition datasets, &lt;em>UCF-HMDB&lt;sub>full&lt;/sub>&lt;/em> and &lt;em>Kinetics-Gameplay&lt;/em>.&lt;/p>
+&lt;p>
+&lt;figure id="figure-the-snapshots-in-the-_ucf-hmdbsubfullsub_-dataset">
+&lt;a data-fancybox="" href="https://minhungchen.netlify.app/project/cdar/ucf_hmdb_hu5f00b314049d434c65c8e828bec18a41_384767_2000x2000_fit_lanczos_2.png" data-caption="The snapshots in the UCF-HMDBfull dataset.">
+&lt;img data-src="https://minhungchen.netlify.app/project/cdar/ucf_hmdb_hu5f00b314049d434c65c8e828bec18a41_384767_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="589" height="50%">
+&lt;/a>
+&lt;figcaption>
+The snapshots in the &lt;em>UCF-HMDB&lt;sub>full&lt;/sub>&lt;/em> dataset.
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-the-snapshots-in-the-_kinetics-gameplay_-dataset">
+&lt;a data-fancybox="" href="https://minhungchen.netlify.app/project/cdar/kinetics_gameplay_hu809b38b434046d8cf813c72d107bbaef_462778_2000x2000_fit_lanczos_2.png" data-caption="The snapshots in the Kinetics-Gameplay dataset.">
+&lt;img data-src="https://minhungchen.netlify.app/project/cdar/kinetics_gameplay_hu809b38b434046d8cf813c72d107bbaef_462778_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="791" height="50%">
+&lt;/a>
+&lt;figcaption>
+The snapshots in the &lt;em>Kinetics-Gameplay&lt;/em> dataset.
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>To download the dataset, please visit our
+&lt;a href="https://github.com/cmhungsteve/TA3N#dataset-preparation" target="_blank" rel="noopener">GitHub&lt;/a>. &lt;br>
+Feel free to check our
+&lt;a href="https://arxiv.org/pdf/1907.12743.pdf" target="_blank" rel="noopener">paper&lt;/a> for more dataset details.&lt;/p>
+&lt;hr>
+&lt;h2 id="related-publications">Related Publications&lt;/h2>
+&lt;p>If you find this project useful, please cite our papers:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">&lt;strong>Min-Hung Chen&lt;/strong>&lt;/a>, Zsolt Kira, Ghassan AlRegib, Jaekwon Yoo, Ruxin Chen, and Jian Zheng, &amp;ldquo;Temporal Attentive Alignment for Large-Scale Video Domain Adaptation&amp;rdquo;,
+&lt;a href="http://iccv2019.thecvf.com/" target="_blank" rel="noopener">&lt;em>IEEE International Conference on Computer Vision (ICCV)&lt;/em>, 2019&lt;/a> &lt;strong>[Oral (acceptance rate: 4.6%), travel grant awarded]&lt;/strong>.&lt;/li>
+&lt;li>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">&lt;strong>Min-Hung Chen&lt;/strong>&lt;/a>, Zsolt Kira, and Ghassan AlRegib, &amp;ldquo;Temporal Attentive Alignment for Video Domain Adaptation&amp;rdquo;,
+&lt;a href="https://sites.google.com/view/luv2019" target="_blank" rel="noopener">&lt;em>CVPR Workshop on Learning from Unlabeled Videos (LUV)&lt;/em>, 2019&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h4 id="bibtex">BibTex&lt;/h4>
+&lt;pre>&lt;code>@inproceedings{chen2019temporal,
+title={Temporal attentive alignment for large-scale video domain adaptation},
+author={Chen, Min-Hung and Kira, Zsolt and AlRegib, Ghassan and Yoo, Jaekwon and Chen, Ruxin and Zheng, Jian},
+booktitle={IEEE International Conference on Computer Vision (ICCV)},
+year={2019}
+}
+@article{chen2019taaan,
+title={Temporal Attentive Alignment for Video Domain Adaptation},
+author={Chen, Min-Hung and Kira, Zsolt and AlRegib, Ghassan},
+journal={CVPR Workshop on Learning from Unlabeled Videos},
+year={2019},
+url={https://arxiv.org/abs/1905.10861}
+}
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h2 id="members">Members&lt;/h2>
+&lt;p>&lt;strong>&lt;sup>1&lt;/sup>Georgia Institute of Technology   &lt;sup>2&lt;/sup>Sony Interactive Entertainment LLC   &lt;sup>3&lt;/sup>Binghamton University &lt;br>&lt;/strong>
+*work partially done as a SIE intern&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">
+&lt;figure id="figure-min-hung-chensup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_me.jpg" alt="" width="100%" >
+&lt;figcaption>
+Min-Hung Chen&lt;sup>1&lt;/sup>*
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.cc.gatech.edu/~zk15/" target="_blank" rel="noopener">
+&lt;figure id="figure-zsolt-kirasup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_zk.jpg" alt="" width="100%" >
+&lt;figcaption>
+Zsolt Kira&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://ghassanalregib.info/" target="_blank" rel="noopener">
+&lt;figure id="figure-ghassan-alregibsup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_ga.jpg" alt="" width="100%" >
+&lt;figcaption>
+Ghassan AlRegib&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.linkedin.com/in/jaekwon-yoo-8685862b/" target="_blank" rel="noopener">
+&lt;figure id="figure-jaekwon-yoosup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_unknown.jpg" alt="" width="100%" >
+&lt;figcaption>
+Jaekwon Yoo&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.linkedin.com/in/ruxin-chen-991477119/" target="_blank" rel="noopener">
+&lt;figure id="figure-ruxin-chensup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_unknown.jpg" alt="" width="100%" >
+&lt;figcaption>
+Ruxin Chen&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://scholar.google.com/citations?hl=en&amp;amp;user=5YR6dTEAAAAJ&amp;amp;view_op=list_works&amp;amp;sortby=pubdate" target="_blank" rel="noopener">
+&lt;figure id="figure-jian-zhengsup3sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_jz.jpg" alt="" width="100%" >
+&lt;figcaption>
+Jian Zheng&lt;sup>3&lt;/sup>*
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>Temporal Attentive Alignment for Large-Scale Video Domain Adaptation</title><link>https://minhungchen.netlify.app/talk/ta3n_iccv19/</link><pubDate>Thu, 31 Oct 2019 15:05:00 +0000</pubDate><guid>https://minhungchen.netlify.app/talk/ta3n_iccv19/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
+&lt;/div>
+&lt;/div>
+Slides can be added in a few ways:
+- **Create** slides using Academic's [*Slides*](https://sourcethemes.com/academic/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+Further talk details can easily be added to this page using *Markdown* and $\rm \LaTeX$ math code. -->
+&lt;p>Feel free to click the upper buttons &lt;code>Video&lt;/code> and &lt;code>Slides&lt;/code> for more details.
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/8oUPyhwzIDo?start=6100&amp;amp;end=6395" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p></description></item><item><title>Temporal Attentive Alignment for Large-Scale Video Domain Adaptation</title><link>https://minhungchen.netlify.app/publication/ta3n/</link><pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate><guid>https://minhungchen.netlify.app/publication/ta3n/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdown slides feature.
+&lt;/div>
+&lt;/div>
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). -->
+&lt;h2 id="videos">Videos&lt;/h2>
+&lt;p>Oral Video (please turn on closed captions):
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/j9cDuzmpYP8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;hr>
+&lt;h2 id="resources">Resources&lt;/h2>
+&lt;figure id="figure-codehttpsgithubcomcmhungsteveta3n">
+&lt;a href="https://github.com/cmhungsteve/TA3N">
+&lt;img src="https://minhungchen.netlify.app/img/github_icon.png" alt="" width="15%" >
+&lt;/a>
+&lt;figcaption>
+&lt;a href="https://github.com/cmhungsteve/TA3N">&lt;strong>Code&lt;/strong>&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;figure id="figure-paperhttpsarxivorgpdf190712743pdf">
+&lt;a href="https://arxiv.org/pdf/1907.12743.pdf">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="40%" >
+&lt;/a>
+&lt;figcaption>
+&lt;a href="https://arxiv.org/pdf/1907.12743.pdf">Paper&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/th>
+&lt;th>
+&lt;figure id="figure-slideshttpswwwdropboxcomss9ud77a1zt0vqbnoral_ta3n_iccv_2019_mutepdfdl0">
+&lt;a href="https://www.dropbox.com/s/s9ud77a1zt0vqbn/Oral_TA3N_ICCV_2019_mute.pdf?dl=0">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="40%" >
+&lt;/a>
+&lt;figcaption>
+&lt;a href="https://www.dropbox.com/s/s9ud77a1zt0vqbn/Oral_TA3N_ICCV_2019_mute.pdf?dl=0">Slides&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/th>
+&lt;th>
+&lt;figure id="figure-posterhttpswwwdropboxcomsg16v02k9sgn1xibiccv2019_steve_ta3n_poster_v1_2pdfdl0">
+&lt;a href="https://www.dropbox.com/s/g16v02k9sgn1xib/ICCV2019_Steve_TA3N_poster_v1_2.pdf?dl=0">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="40%" >
+&lt;/a>
+&lt;figcaption>
+&lt;a href="https://www.dropbox.com/s/g16v02k9sgn1xib/ICCV2019_Steve_TA3N_poster_v1_2.pdf?dl=0">Poster&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;p>Other Links:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="http://openaccess.thecvf.com/content_ICCV_2019/html/Chen_Temporal_Attentive_Alignment_for_Large-Scale_Video_Domain_Adaptation_ICCV_2019_paper.html" target="_blank" rel="noopener">CVF Open Access&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://ieeexplore.ieee.org/document/9008391" target="_blank" rel="noopener">IEEE Xplore&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://mlatgt.blog/2019/09/10/overcoming-large-scale-annotation-requirements-for-understanding-videos-in-the-wild" target="_blank" rel="noopener">ML@GT Blog&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://mailchi.mp/4ed0cbf6a67d/iccv2019" target="_blank" rel="noopener">GT@ICCV'19&lt;/a>&lt;/li>
+&lt;li>CVPR workshop on Learning from Unlabeled Videos (LUV) [
+&lt;a href="https://sites.google.com/view/luv2019/program" target="_blank" rel="noopener">CVPRW'19&lt;/a> ]&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="citation">Citation&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">&lt;strong>Min-Hung Chen&lt;/strong>&lt;/a>,
+&lt;a href="https://www.cc.gatech.edu/~zk15/" target="_blank" rel="noopener">Zsolt Kira&lt;/a>,
+&lt;a href="https://ghassanalregib.info/" target="_blank" rel="noopener">Ghassan AlRegib&lt;/a>,
+&lt;a href="https://www.linkedin.com/in/jaekwon-yoo-8685862b/" target="_blank" rel="noopener">Jaekwon Yoo&lt;/a>,
+&lt;a href="%28https://www.linkedin.com/in/ruxin-chen-991477119/%29">Ruxin Chen&lt;/a>, and
+&lt;a href="https://scholar.google.com/citations?user=5YR6dTEAAAAJ" target="_blank" rel="noopener">Jian Zheng&lt;/a>, &amp;ldquo;Temporal Attentive Alignment for Large-Scale Video Domain Adaptation&amp;rdquo;,
+&lt;a href="http://iccv2019.thecvf.com/" target="_blank" rel="noopener">&lt;em>IEEE International Conference on Computer Vision (ICCV)&lt;/em>, 2019&lt;/a> &lt;strong>[Oral (acceptance rate: 4.6%), travel grant awarded]&lt;/strong>.&lt;/li>
+&lt;li>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">&lt;strong>Min-Hung Chen&lt;/strong>&lt;/a>,
+&lt;a href="https://www.cc.gatech.edu/~zk15/" target="_blank" rel="noopener">Zsolt Kira&lt;/a>, and
+&lt;a href="https://ghassanalregib.info/" target="_blank" rel="noopener">Ghassan AlRegib&lt;/a>, &amp;ldquo;Temporal Attentive Alignment for Video Domain Adaptation&amp;rdquo;,
+&lt;a href="https://sites.google.com/view/luv2019" target="_blank" rel="noopener">&lt;em>CVPR Workshop on Learning from Unlabeled Videos (LUV)&lt;/em>, 2019&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h4 id="bibtex">BibTex&lt;/h4>
+&lt;pre>&lt;code>@inproceedings{chen2019temporal,
+title={Temporal attentive alignment for large-scale video domain adaptation},
+author={Chen, Min-Hung and Kira, Zsolt and AlRegib, Ghassan and Yoo, Jaekwon and Chen, Ruxin and Zheng, Jian},
+booktitle={IEEE International Conference on Computer Vision (ICCV)},
+year={2019}
+}
+@article{chen2019taaan,
+title={Temporal Attentive Alignment for Video Domain Adaptation},
+author={Chen, Min-Hung and Kira, Zsolt and AlRegib, Ghassan},
+journal={CVPR Workshop on Learning from Unlabeled Videos},
+year={2019},
+url={https://arxiv.org/abs/1905.10861}
+}
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h2 id="members">Members&lt;/h2>
+&lt;p>&lt;strong>&lt;sup>1&lt;/sup>Georgia Institute of Technology   &lt;sup>2&lt;/sup>Sony Interactive Entertainment LLC   &lt;sup>3&lt;/sup>Binghamton University &lt;br>&lt;/strong>
+*work partially done as a SIE intern&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">
+&lt;figure id="figure-min-hung-chensup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_me.jpg" alt="" width="100%" >
+&lt;figcaption>
+Min-Hung Chen&lt;sup>1&lt;/sup>*
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.cc.gatech.edu/~zk15/" target="_blank" rel="noopener">
+&lt;figure id="figure-zsolt-kirasup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_zk.jpg" alt="" width="100%" >
+&lt;figcaption>
+Zsolt Kira&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://ghassanalregib.info/" target="_blank" rel="noopener">
+&lt;figure id="figure-ghassan-alregibsup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_ga.jpg" alt="" width="100%" >
+&lt;figcaption>
+Ghassan AlRegib&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.linkedin.com/in/jaekwon-yoo-8685862b/" target="_blank" rel="noopener">
+&lt;figure id="figure-jaekwon-yoosup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_unknown.jpg" alt="" width="100%" >
+&lt;figcaption>
+Jaekwon Yoo&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.linkedin.com/in/ruxin-chen-991477119/" target="_blank" rel="noopener">
+&lt;figure id="figure-ruxin-chensup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_unknown.jpg" alt="" width="100%" >
+&lt;figcaption>
+Ruxin Chen&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://scholar.google.com/citations?user=5YR6dTEAAAAJ" target="_blank" rel="noopener">
+&lt;figure id="figure-jian-zhengsup3sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_jz.jpg" alt="" width="100%" >
+&lt;figcaption>
+Jian Zheng&lt;sup>3&lt;/sup>*
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item></channel></rss>

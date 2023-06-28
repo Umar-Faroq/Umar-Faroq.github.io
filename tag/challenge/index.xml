@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Challenge | Min-Hung Chen</title><link>https://minhungchen.netlify.app/tag/challenge/</link><atom:link href="https://minhungchen.netlify.app/tag/challenge/index.xml" rel="self" type="application/rss+xml"/><description>Challenge</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Min-Hung Chen</copyright><lastBuildDate>Sun, 20 Jun 2021 08:50:00 +0000</lastBuildDate><image><url>https://minhungchen.netlify.app/img/authors/head_me.jpg</url><title>Challenge</title><link>https://minhungchen.netlify.app/tag/challenge/</link></image><item><title>Learned Smartphone ISP Challenge</title><link>https://minhungchen.netlify.app/talk/mai_cvpr21/</link><pubDate>Sun, 20 Jun 2021 08:50:00 +0000</pubDate><guid>https://minhungchen.netlify.app/talk/mai_cvpr21/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
+&lt;/div>
+&lt;/div>
+Slides can be added in a few ways:
+- **Create** slides using Academic's [*Slides*](https://sourcethemes.com/academic/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+Further talk details can easily be added to this page using *Markdown* and $\rm \LaTeX$ math code. -->
+&lt;!-- Feel free to click the upper buttons `Video` and `Slides` for more details. -->
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/tdpmvy2Cab0?start=7941&amp;amp;end=8600" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>All the links in this talk are as follows:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/MediaTek-NeuroPilot/mai21-learned-smartphone-isp" target="_blank" rel="noopener">Codebase&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://arxiv.org/abs/2105.07809" target="_blank" rel="noopener">Paper&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/MediaTek-NeuroPilot/tflite-neuron-delegate" target="_blank" rel="noopener">Neuron Delegate&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://www.mediatek.com/products/smartphones/dimensity-1000-series" target="_blank" rel="noopener">Dimensity 1000+&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://careers.mediatek.com/" target="_blank" rel="noopener">Job Opportunities&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Learned Smartphone ISP on Mobile NPUs With Deep Learning, Mobile AI 2021 Challenge: Report</title><link>https://minhungchen.netlify.app/publication/mai/</link><pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate><guid>https://minhungchen.netlify.app/publication/mai/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdown slides feature.
+&lt;/div>
+&lt;/div>
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). -->
+&lt;h2 id="resources">Resources&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;figure id="figure-paper-arxivhttpsarxivorgpdf210507809pdf">
+&lt;a href="https://arxiv.org/pdf/2105.07809.pdf">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="15%" >
+&lt;/a>
+&lt;figcaption>
+&lt;a href="https://arxiv.org/pdf/2105.07809.pdf">Paper (arXiv)&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;p>Other Links:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://openaccess.thecvf.com/content/CVPR2021W/MAI/html/Ignatov_Learned_Smartphone_ISP_on_Mobile_NPUs_With_Deep_Learning_Mobile_CVPRW_2021_paper.html" target="_blank" rel="noopener">CVF Open Access&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="">IEEE Xplore (to be updated)&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://ai-benchmark.com/workshops/mai/2021/" target="_blank" rel="noopener">Mobile AI (MAI) Workshop @ CVPR 2021&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://competitions.codalab.org/competitions/28054" target="_blank" rel="noopener">Learned Smartphone ISP Challenge @ MAI 2021&lt;/a>&lt;/li>
+&lt;li>MediaTek Blog [
+&lt;a href="https://www.mediatek.com/blog/mediateks-summer-of-ai-at-cvpr-2021" target="_blank" rel="noopener">Blog-1&lt;/a> ][
+&lt;a href="https://www.mediatek.com/blog/mediatek-hosts-cvpr-and-icmr-challenges-sign-up-today" target="_blank" rel="noopener">Blog-2&lt;/a> ]&lt;/li>
+&lt;li>
+&lt;a href="https://www.mediatek.com/products/smartphones/dimensity-1000-series" target="_blank" rel="noopener">MediaTek Dimensity 1000+ APU&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="citation">Citation&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;a href="https://scholar.google.com/citations?user=kBoWvhIAAAAJ" target="_blank" rel="noopener">Andrey Ignatov&lt;/a>,
+&lt;a href="https://scholar.google.com/citations?user=CyMTGlsAAAAJ" target="_blank" rel="noopener">Cheng-Ming Chiang&lt;/a>,
+&lt;a href="https://scholar.google.com/citations?user=EeVsWaUAAAAJ" target="_blank" rel="noopener">Hsien-Kai Kuo&lt;/a>, Anastasia Sycheva,
+&lt;a href="https://people.ee.ethz.ch/~timofter/" target="_blank" rel="noopener">Radu Timofte&lt;/a>,
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">&lt;strong>Min-Hung Chen&lt;/strong>&lt;/a>,
+&lt;a href="https://www.linkedin.com/in/man-yu-lee-b207471aa/" target="_blank" rel="noopener">Man-Yu Lee&lt;/a>,
+&lt;a href="https://xusean0118.github.io/" target="_blank" rel="noopener">Yu-Syuan Xu&lt;/a>, Yu Tseng, et al. &amp;ldquo;Learned Smartphone ISP on Mobile NPUs with Deep Learning, Mobile AI 2021 Challenge: Report&amp;rdquo;,
+&lt;a href="https://ai-benchmark.com/workshops/mai/2021/" target="_blank" rel="noopener">&lt;em>CVPR Workshop and Challenges on Mobile AI (MAI)&lt;/em>, 2021&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h4 id="bibtex">BibTex&lt;/h4>
+&lt;pre>&lt;code>@inproceedings{ignatov2021learned,
+title={Learned Smartphone ISP on Mobile NPUs with Deep Learning, Mobile AI 2021 Challenge: Report},
+author={Ignatov, Andrey and Chiang, Cheng-Ming and Kuo, Hsien-Kai and Sycheva, Anastasia and Timofte, Radu and Chen, Min-Hung and Lee, Man-Yu and Xu, Yu-Syuan and Tseng, Yu and Xu, Shusong and Guo, Jin and Chen, Chao-Hung and Hsyu, Ming-Chun and Tsai, Wen-Chia and Chen, Chao-Wei and Malivenko, Grigory and Kwon, Minsu and Lee, Myungje and Yoo, Jaeyoon and Kang, Changbeom and Wang, Shinjo and Shaolong, Zheng and Dejun, Hao and Fen, Xie and Zhuang, Feng and Ma, Yipeng and Peng, Jingyang and Wang, Tao and Song, Fenglong and Hsu, Chih-Chung and Chen, Kwan-Lin and Wu, Mei-Hsuang and Chudasama, Vishal and Prajapati, Kalpesh and Patel, Heena and Sarvaiya, Anjali and Upla, Kishor and Raja, Kiran and Ramachandra, Raghavendra and Busch, Christoph and de Stoutz, Etienne},
+booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops (Mobile AI)},
+year={2021},
+url={https://arxiv.org/abs/2105.07809}
+}
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h2 id="members">Members&lt;/h2>
+&lt;p>&lt;strong>&lt;sup>1&lt;/sup>MediaTek Inc.   &lt;sup>2&lt;/sup>ETH Zurich &lt;br>&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;a href="https://scholar.google.com/citations?user=kBoWvhIAAAAJ" target="_blank" rel="noopener">
+&lt;figure id="figure-andrey-ignatovsup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_ai.jpg" alt="" width="100%" >
+&lt;figcaption>
+Andrey Ignatov&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://scholar.google.com/citations?user=CyMTGlsAAAAJ" target="_blank" rel="noopener">
+&lt;figure id="figure-cheng-ming-chiangsup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_cmc.jpg" alt="" width="100%" >
+&lt;figcaption>
+Cheng-Ming Chiang&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://scholar.google.com/citations?user=EeVsWaUAAAAJ" target="_blank" rel="noopener">
+&lt;figure id="figure-hsien-kai-kuosup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_hkk.jpg" alt="" width="100%" >
+&lt;figcaption>
+Hsien-Kai Kuo&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="">
+&lt;figure id="figure-anastasia-sychevasup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_unknown.jpg" alt="" width="100%" >
+&lt;figcaption>
+Anastasia Sycheva&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://people.ee.ethz.ch/~timofter/" target="_blank" rel="noopener">
+&lt;figure id="figure-radu-timoftesup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_rt.jpg" alt="" width="100%" >
+&lt;figcaption>
+Radu Timofte&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">
+&lt;figure id="figure-min-hung-chensup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_me.jpg" alt="" width="100%" >
+&lt;figcaption>
+Min-Hung Chen&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.linkedin.com/in/man-yu-lee-b207471aa/" target="_blank" rel="noopener">
+&lt;figure id="figure-man-yu-leesup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_myl.jpg" alt="" width="100%" >
+&lt;figcaption>
+Man-Yu Lee&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://xusean0118.github.io/" target="_blank" rel="noopener">
+&lt;figure id="figure-yu-syuan-xusup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_ysx.jpg" alt="" width="100%" >
+&lt;figcaption>
+Yu-Syuan Xu&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="">
+&lt;figure id="figure-yu-tsengsup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_unknown.jpg" alt="" width="100%" >
+&lt;figcaption>
+Yu Tseng&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>Deep Learning for Smartphone ISP</title><link>https://minhungchen.netlify.app/project/mai/</link><pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate><guid>https://minhungchen.netlify.app/project/mai/</guid><description>&lt;h2 id="motivation">Motivation&lt;/h2>
+&lt;p>As the popularity of mobile photography is growing constantly, lots of efforts are being invested now into building complex hand-crafted camera ISP systems. Despite the advances in this field, the modern smartphone cameras are still unable to reach the level of the high-end DSLR cameras, partly because the conventional ISP algorithms are unable to accurately recover the information coming from the tiny mobile camera sensors or render the missing image details. To address this problem, we organize this challenge and present a large-scale dataset consisting of aligned smartphone raw / DSLR image pairs to train deep learning-based ISPs.&lt;/p>
+&lt;hr>
+&lt;h2 id="challenges">Challenges&lt;/h2>
+&lt;p>The challenge aims to obtain an output image with the best trade-off between pixel fidelity (PSNR) and latency on mobile devices.&lt;/p>
+&lt;hr>
+&lt;h2 id="our-approaches">Our Approaches&lt;/h2>
+&lt;p>The whole pipeline of &lt;strong>Learned Smartphone ISP&lt;/strong> has two main steps (assume the input resolution is &lt;code>H x W&lt;/code>):&lt;/p>
+&lt;ol>
+&lt;li>deBayer pre-processing:
+&lt;ul>
+&lt;li>&lt;em>Input&lt;/em>: RAW data [&lt;code>H x W x 1&lt;/code>]&lt;/li>
+&lt;li>&lt;em>Output&lt;/em>: deBayer RAW data [&lt;code>(H/2) x (W/2) x 4&lt;/code>]&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>We propose an UNet-like architecture, &lt;strong>PUNET&lt;/strong>, to take deBayer data and output RGB images:
+&lt;ul>
+&lt;li>&lt;em>Input&lt;/em>: deBayer RAW data [&lt;code>(H/2) x (W/2) x 4&lt;/code>]&lt;/li>
+&lt;li>&lt;em>Output&lt;/em>: RGB image [&lt;code>H x W x 3&lt;/code>]&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;figure id="figure-punet-architecture">
+&lt;a data-fancybox="" href="https://minhungchen.netlify.app/project/mai/PUNET_hud38395a945c59de4280691f2b874f3e5_81589_2000x2000_fit_lanczos_2.png" data-caption="PUNET architecture.">
+&lt;img data-src="https://minhungchen.netlify.app/project/mai/PUNET_hud38395a945c59de4280691f2b874f3e5_81589_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="80%" height="1011">
+&lt;/a>
+&lt;figcaption>
+PUNET architecture.
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>A detailed description of the entire baseline training pipeline can be found in our GitHub: &lt;a href="https://github.com/MediaTek-NeuroPilot/mai21-learned-smartphone-isp">https://github.com/MediaTek-NeuroPilot/mai21-learned-smartphone-isp&lt;/a>.&lt;/p>
+&lt;hr>
+&lt;h2 id="dataset">Dataset&lt;/h2>
+&lt;p>(Will be released. Stay tuned.)&lt;/p>
+&lt;p>More information of the dataset can be found in our GitHub: &lt;a href="https://github.com/MediaTek-NeuroPilot/mai21-learned-smartphone-isp">https://github.com/MediaTek-NeuroPilot/mai21-learned-smartphone-isp&lt;/a>.&lt;/p>
+&lt;hr>
+&lt;h2 id="results">Results&lt;/h2>
+&lt;p>We evaluate the pre-trained PUNET on the validation data (resolution: 256x256), and obtain the following results:&lt;/p>
+&lt;ul>
+&lt;li>PSNR: &lt;strong>23.03&lt;/strong>&lt;/li>
+&lt;li>Some visualized comparison with the ground truth:
+&lt;figure id="figure-baseline-results-visualization">
+&lt;a data-fancybox="" href="https://minhungchen.netlify.app/project/mai/PUNET_results_patch_hu6ae68bdca1a543daaf9d0a80aff5a2e1_1013124_2000x2000_fit_lanczos_2.png" data-caption="Baseline results visualization.">
+&lt;img data-src="https://minhungchen.netlify.app/project/mai/PUNET_results_patch_hu6ae68bdca1a543daaf9d0a80aff5a2e1_1013124_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="80%" height="605">
+&lt;/a>
+&lt;figcaption>
+Baseline results visualization.
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ul>
+&lt;!-- Please check our [paper]() for more results. -->
+&lt;hr>
+&lt;h2 id="resources">Resources&lt;/h2>
+&lt;h4 id="papers--code">Papers &amp;amp; Code&lt;/h4>
+&lt;p>
+&lt;a href="https://github.com/MediaTek-NeuroPilot/mai21-learned-smartphone-isp" target="_blank" rel="noopener">
+&lt;figure id="figure-codehttpsgithubcommediatek-neuropilotmai21-learned-smartphone-isp">
+&lt;img src="https://minhungchen.netlify.app/img/github_icon.png" alt="" width="15%" >
+&lt;figcaption>
+&lt;a href="https://github.com/MediaTek-NeuroPilot/mai21-learned-smartphone-isp">&lt;strong>Code&lt;/strong>&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/p>
+&lt;p>
+&lt;a href="https://arxiv.org/pdf/2105.07809.pdf" target="_blank" rel="noopener">
+&lt;figure id="figure-cvprw21httpsarxivorgpdf210507809pdf">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="15%" >
+&lt;figcaption>
+&lt;a href="https://arxiv.org/pdf/2105.07809.pdf">CVPRW'21&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/p>
+&lt;h4 id="other-links">Other Links&lt;/h4>
+&lt;ul>
+&lt;li>
+&lt;a href="https://ai-benchmark.com/workshops/mai/2021/" target="_blank" rel="noopener">Mobile AI (MAI) Workshop @ CVPR 2021&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://competitions.codalab.org/competitions/28054" target="_blank" rel="noopener">Learned Smartphone ISP Challenge @ MAI 2021&lt;/a>&lt;/li>
+&lt;li>MediaTek Blog [
+&lt;a href="https://www.mediatek.com/blog/mediateks-summer-of-ai-at-cvpr-2021" target="_blank" rel="noopener">Blog-1&lt;/a> ][
+&lt;a href="https://www.mediatek.com/blog/mediatek-hosts-cvpr-and-icmr-challenges-sign-up-today" target="_blank" rel="noopener">Blog-2&lt;/a> ]&lt;/li>
+&lt;li>
+&lt;a href="https://www.mediatek.com/products/smartphones/dimensity-1000-series" target="_blank" rel="noopener">MediaTek Dimensity 1000+ APU&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="related-publications">Related Publications&lt;/h2>
+&lt;p>If you find this project useful, please cite our work:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://scholar.google.com/citations?user=kBoWvhIAAAAJ" target="_blank" rel="noopener">Andrey Ignatov&lt;/a>,
+&lt;a href="https://scholar.google.com/citations?user=CyMTGlsAAAAJ" target="_blank" rel="noopener">Cheng-Ming Chiang&lt;/a>,
+&lt;a href="https://scholar.google.com/citations?user=EeVsWaUAAAAJ" target="_blank" rel="noopener">Hsien-Kai Kuo&lt;/a>, Anastasia Sycheva,
+&lt;a href="https://people.ee.ethz.ch/~timofter/" target="_blank" rel="noopener">Radu Timofte&lt;/a>,
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">&lt;strong>Min-Hung Chen&lt;/strong>&lt;/a>,
+&lt;a href="https://www.linkedin.com/in/man-yu-lee-b207471aa/" target="_blank" rel="noopener">Man-Yu Lee&lt;/a>,
+&lt;a href="https://xusean0118.github.io/" target="_blank" rel="noopener">Yu-Syuan Xu&lt;/a>, Yu Tseng, et al. &amp;ldquo;Learned Smartphone ISP on Mobile NPUs with Deep Learning, Mobile AI 2021 Challenge: Report&amp;rdquo;,
+&lt;a href="https://ai-benchmark.com/workshops/mai/2021/" target="_blank" rel="noopener">&lt;em>CVPR Workshop and Challenges on Mobile AI (MAI)&lt;/em>, 2021&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h4 id="bibtex">BibTex&lt;/h4>
+&lt;pre>&lt;code>@misc{mtk2021mai,
+title={Mobile AI Workshop: Learned Smartphone ISP Challenge},
+year={2021},
+url={https://github.com/MediaTek-NeuroPilot/mai21-learned-smartphone-isp}
+}
+@inproceedings{ignatov2021learned,
+title={Learned Smartphone ISP on Mobile NPUs with Deep Learning, Mobile AI 2021 Challenge: Report},
+author={Ignatov, Andrey and Chiang, Cheng-Ming and Kuo, Hsien-Kai and Sycheva, Anastasia and Timofte, Radu and Chen, Min-Hung and Lee, Man-Yu and Xu, Yu-Syuan and Tseng, Yu and Xu, Shusong and Guo, Jin and Chen, Chao-Hung and Hsyu, Ming-Chun and Tsai, Wen-Chia and Chen, Chao-Wei and Malivenko, Grigory and Kwon, Minsu and Lee, Myungje and Yoo, Jaeyoon and Kang, Changbeom and Wang, Shinjo and Shaolong, Zheng and Dejun, Hao and Fen, Xie and Zhuang, Feng and Ma, Yipeng and Peng, Jingyang and Wang, Tao and Song, Fenglong and Hsu, Chih-Chung and Chen, Kwan-Lin and Wu, Mei-Hsuang and Chudasama, Vishal and Prajapati, Kalpesh and Patel, Heena and Sarvaiya, Anjali and Upla, Kishor and Raja, Kiran and Ramachandra, Raghavendra and Busch, Christoph and de Stoutz, Etienne},
+booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops (Mobile AI)},
+year={2021},
+url={https://arxiv.org/abs/2105.07809}
+}
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h2 id="members">Members&lt;/h2>
+&lt;p>&lt;strong>&lt;sup>1&lt;/sup>MediaTek Inc.   &lt;sup>2&lt;/sup>ETH Zurich &lt;br>&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;a href="https://scholar.google.com/citations?user=kBoWvhIAAAAJ" target="_blank" rel="noopener">
+&lt;figure id="figure-andrey-ignatovsup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_ai.jpg" alt="" width="100%" >
+&lt;figcaption>
+Andrey Ignatov&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://scholar.google.com/citations?user=CyMTGlsAAAAJ" target="_blank" rel="noopener">
+&lt;figure id="figure-cheng-ming-chiangsup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_cmc.jpg" alt="" width="100%" >
+&lt;figcaption>
+Cheng-Ming Chiang&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://scholar.google.com/citations?user=EeVsWaUAAAAJ" target="_blank" rel="noopener">
+&lt;figure id="figure-hsien-kai-kuosup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_hkk.jpg" alt="" width="100%" >
+&lt;figcaption>
+Hsien-Kai Kuo&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="">
+&lt;figure id="figure-anastasia-sychevasup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_unknown.jpg" alt="" width="100%" >
+&lt;figcaption>
+Anastasia Sycheva&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://people.ee.ethz.ch/~timofter/" target="_blank" rel="noopener">
+&lt;figure id="figure-radu-timoftesup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_rt.jpg" alt="" width="100%" >
+&lt;figcaption>
+Radu Timofte&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">
+&lt;figure id="figure-min-hung-chensup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_me.jpg" alt="" width="100%" >
+&lt;figcaption>
+Min-Hung Chen&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.linkedin.com/in/man-yu-lee-b207471aa/" target="_blank" rel="noopener">
+&lt;figure id="figure-man-yu-leesup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_myl.jpg" alt="" width="100%" >
+&lt;figcaption>
+Man-Yu Lee&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://xusean0118.github.io/" target="_blank" rel="noopener">
+&lt;figure id="figure-yu-syuan-xusup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_ysx.jpg" alt="" width="100%" >
+&lt;figcaption>
+Yu-Syuan Xu&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="">
+&lt;figure id="figure-yu-tsengsup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_unknown.jpg" alt="" width="100%" >
+&lt;figcaption>
+Yu Tseng&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item></channel></rss>

@@ -1,0 +1,1374 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Selected Publications | Min-Hung Chen</title><link>https://minhungchen.netlify.app/publication/</link><atom:link href="https://minhungchen.netlify.app/publication/index.xml" rel="self" type="application/rss+xml"/><description>Selected Publications</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Min-Hung Chen</copyright><image><url>https://minhungchen.netlify.app/img/authors/head_me.jpg</url><title>Selected Publications</title><link>https://minhungchen.netlify.app/publication/</link></image><item><title>Learned Smartphone ISP on Mobile NPUs With Deep Learning, Mobile AI 2021 Challenge: Report</title><link>https://minhungchen.netlify.app/publication/mai/</link><pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate><guid>https://minhungchen.netlify.app/publication/mai/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdown slides feature.
+&lt;/div>
+&lt;/div>
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). -->
+&lt;h2 id="resources">Resources&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;figure id="figure-paper-arxivhttpsarxivorgpdf210507809pdf">
+&lt;a href="https://arxiv.org/pdf/2105.07809.pdf">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="15%" >
+&lt;/a>
+&lt;figcaption>
+&lt;a href="https://arxiv.org/pdf/2105.07809.pdf">Paper (arXiv)&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;p>Other Links:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://openaccess.thecvf.com/content/CVPR2021W/MAI/html/Ignatov_Learned_Smartphone_ISP_on_Mobile_NPUs_With_Deep_Learning_Mobile_CVPRW_2021_paper.html" target="_blank" rel="noopener">CVF Open Access&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="">IEEE Xplore (to be updated)&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://ai-benchmark.com/workshops/mai/2021/" target="_blank" rel="noopener">Mobile AI (MAI) Workshop @ CVPR 2021&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://competitions.codalab.org/competitions/28054" target="_blank" rel="noopener">Learned Smartphone ISP Challenge @ MAI 2021&lt;/a>&lt;/li>
+&lt;li>MediaTek Blog [
+&lt;a href="https://www.mediatek.com/blog/mediateks-summer-of-ai-at-cvpr-2021" target="_blank" rel="noopener">Blog-1&lt;/a> ][
+&lt;a href="https://www.mediatek.com/blog/mediatek-hosts-cvpr-and-icmr-challenges-sign-up-today" target="_blank" rel="noopener">Blog-2&lt;/a> ]&lt;/li>
+&lt;li>
+&lt;a href="https://www.mediatek.com/products/smartphones/dimensity-1000-series" target="_blank" rel="noopener">MediaTek Dimensity 1000+ APU&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="citation">Citation&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;a href="https://scholar.google.com/citations?user=kBoWvhIAAAAJ" target="_blank" rel="noopener">Andrey Ignatov&lt;/a>,
+&lt;a href="https://scholar.google.com/citations?user=CyMTGlsAAAAJ" target="_blank" rel="noopener">Cheng-Ming Chiang&lt;/a>,
+&lt;a href="https://scholar.google.com/citations?user=EeVsWaUAAAAJ" target="_blank" rel="noopener">Hsien-Kai Kuo&lt;/a>, Anastasia Sycheva,
+&lt;a href="https://people.ee.ethz.ch/~timofter/" target="_blank" rel="noopener">Radu Timofte&lt;/a>,
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">&lt;strong>Min-Hung Chen&lt;/strong>&lt;/a>,
+&lt;a href="https://www.linkedin.com/in/man-yu-lee-b207471aa/" target="_blank" rel="noopener">Man-Yu Lee&lt;/a>,
+&lt;a href="https://xusean0118.github.io/" target="_blank" rel="noopener">Yu-Syuan Xu&lt;/a>, Yu Tseng, et al. &amp;ldquo;Learned Smartphone ISP on Mobile NPUs with Deep Learning, Mobile AI 2021 Challenge: Report&amp;rdquo;,
+&lt;a href="https://ai-benchmark.com/workshops/mai/2021/" target="_blank" rel="noopener">&lt;em>CVPR Workshop and Challenges on Mobile AI (MAI)&lt;/em>, 2021&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h4 id="bibtex">BibTex&lt;/h4>
+&lt;pre>&lt;code>@inproceedings{ignatov2021learned,
+title={Learned Smartphone ISP on Mobile NPUs with Deep Learning, Mobile AI 2021 Challenge: Report},
+author={Ignatov, Andrey and Chiang, Cheng-Ming and Kuo, Hsien-Kai and Sycheva, Anastasia and Timofte, Radu and Chen, Min-Hung and Lee, Man-Yu and Xu, Yu-Syuan and Tseng, Yu and Xu, Shusong and Guo, Jin and Chen, Chao-Hung and Hsyu, Ming-Chun and Tsai, Wen-Chia and Chen, Chao-Wei and Malivenko, Grigory and Kwon, Minsu and Lee, Myungje and Yoo, Jaeyoon and Kang, Changbeom and Wang, Shinjo and Shaolong, Zheng and Dejun, Hao and Fen, Xie and Zhuang, Feng and Ma, Yipeng and Peng, Jingyang and Wang, Tao and Song, Fenglong and Hsu, Chih-Chung and Chen, Kwan-Lin and Wu, Mei-Hsuang and Chudasama, Vishal and Prajapati, Kalpesh and Patel, Heena and Sarvaiya, Anjali and Upla, Kishor and Raja, Kiran and Ramachandra, Raghavendra and Busch, Christoph and de Stoutz, Etienne},
+booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops (Mobile AI)},
+year={2021},
+url={https://arxiv.org/abs/2105.07809}
+}
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h2 id="members">Members&lt;/h2>
+&lt;p>&lt;strong>&lt;sup>1&lt;/sup>MediaTek Inc.   &lt;sup>2&lt;/sup>ETH Zurich &lt;br>&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;a href="https://scholar.google.com/citations?user=kBoWvhIAAAAJ" target="_blank" rel="noopener">
+&lt;figure id="figure-andrey-ignatovsup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_ai.jpg" alt="" width="100%" >
+&lt;figcaption>
+Andrey Ignatov&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://scholar.google.com/citations?user=CyMTGlsAAAAJ" target="_blank" rel="noopener">
+&lt;figure id="figure-cheng-ming-chiangsup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_cmc.jpg" alt="" width="100%" >
+&lt;figcaption>
+Cheng-Ming Chiang&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://scholar.google.com/citations?user=EeVsWaUAAAAJ" target="_blank" rel="noopener">
+&lt;figure id="figure-hsien-kai-kuosup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_hkk.jpg" alt="" width="100%" >
+&lt;figcaption>
+Hsien-Kai Kuo&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="">
+&lt;figure id="figure-anastasia-sychevasup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_unknown.jpg" alt="" width="100%" >
+&lt;figcaption>
+Anastasia Sycheva&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://people.ee.ethz.ch/~timofter/" target="_blank" rel="noopener">
+&lt;figure id="figure-radu-timoftesup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_rt.jpg" alt="" width="100%" >
+&lt;figcaption>
+Radu Timofte&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">
+&lt;figure id="figure-min-hung-chensup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_me.jpg" alt="" width="100%" >
+&lt;figcaption>
+Min-Hung Chen&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.linkedin.com/in/man-yu-lee-b207471aa/" target="_blank" rel="noopener">
+&lt;figure id="figure-man-yu-leesup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_myl.jpg" alt="" width="100%" >
+&lt;figcaption>
+Man-Yu Lee&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://xusean0118.github.io/" target="_blank" rel="noopener">
+&lt;figure id="figure-yu-syuan-xusup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_ysx.jpg" alt="" width="100%" >
+&lt;figcaption>
+Yu-Syuan Xu&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="">
+&lt;figure id="figure-yu-tsengsup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_unknown.jpg" alt="" width="100%" >
+&lt;figcaption>
+Yu Tseng&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>Network Space Search for Pareto-Efficient Spaces</title><link>https://minhungchen.netlify.app/publication/nss/</link><pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate><guid>https://minhungchen.netlify.app/publication/nss/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdown slides feature.
+&lt;/div>
+&lt;/div>
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). -->
+&lt;h2 id="video">Video&lt;/h2>
+&lt;h2 id="hahahugoshortcode-s2-hbhb">2-min talk video:
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/N1ezhkxGTN8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/h2>
+&lt;h2 id="resources">Resources&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;figure id="figure-paper-arxivhttpsarxivorgpdf210411014pdf">
+&lt;a href="https://arxiv.org/pdf/2104.11014.pdf">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="15%" >
+&lt;/a>
+&lt;figcaption>
+&lt;a href="https://arxiv.org/pdf/2104.11014.pdf">Paper (arXiv)&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;p>Other Links:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://openaccess.thecvf.com/content/CVPR2021W/ECV/html/Hong_Network_Space_Search_for_Pareto-Efficient_Spaces_CVPRW_2021_paper.html" target="_blank" rel="noopener">CVF Open Access&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="">IEEE Xplore (to be updated)&lt;/a>&lt;/li>
+&lt;li>CVPR workshop on Efficient Deep Learning for Computer Vision (ECV) [
+&lt;a href="https://sites.google.com/view/ecv2021" target="_blank" rel="noopener">CVPRW'21&lt;/a> ]&lt;/li>
+&lt;li>
+&lt;a href="https://www.mediatek.com/blog/mediateks-summer-of-ai-at-cvpr-2021" target="_blank" rel="noopener">MediaTek Blog&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="citation">Citation&lt;/h2>
+&lt;p>
+&lt;a href="https://scholar.google.com/citations?user=QRZuu3AAAAAJ" target="_blank" rel="noopener">Min-Fong Hong&lt;/a>,
+&lt;a href="https://scholar.google.com/citations?user=zbhpHsYAAAAJ" target="_blank" rel="noopener">Hao-Yun Chen&lt;/a>,
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">&lt;strong>Min-Hung Chen&lt;/strong>&lt;/a>,
+&lt;a href="https://xusean0118.github.io/" target="_blank" rel="noopener">Yu-Syuan Xu&lt;/a>,
+&lt;a href="https://scholar.google.com/citations?user=EeVsWaUAAAAJ" target="_blank" rel="noopener">Hsien-Kai Kuo&lt;/a>,
+&lt;a href="https://scholar.google.com.tw/citations?user=XomuoxsAAAAJ" target="_blank" rel="noopener">Yi-Min Tsai&lt;/a>,
+&lt;a href="https://www.linkedin.com/in/hung-jen-hj-chen-a3620ab4/" target="_blank" rel="noopener">Hung-Jen Chen&lt;/a>, and Kevin Jou, &amp;ldquo;Network Space Search for Pareto-Efficient Spaces
+&amp;ldquo;,
+&lt;a href="https://sites.google.com/view/ecv2021" target="_blank" rel="noopener">&lt;em>CVPR Workshop on Efficient Deep Learning for Computer Vision (CVPRW)&lt;/em>, 2021&lt;/a> &lt;strong>[Oral]&lt;/strong>.&lt;/p>
+&lt;h4 id="bibtex">BibTex&lt;/h4>
+&lt;pre>&lt;code>@inproceedings{hong2021network,
+title={Network Space Search for Pareto-Efficient Spaces},
+author={Hong, Min-Fong and Chen, Hao-Yun and Chen, Min-Hung and Xu, Yu-Syuan and Kuo, Hsien-Kai and Tsai, Yi-Min and Chen, Hung-Jen and Jou, Kevin},
+booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops (Efficient Deep Learning for Computer Vision)},
+year={2021},
+url={https://arxiv.org/abs/2104.11014}
+}
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h2 id="members">Members&lt;/h2>
+&lt;p>&lt;strong>MediaTek Inc.&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;a href="https://scholar.google.com/citations?user=QRZuu3AAAAAJ" target="_blank" rel="noopener">
+&lt;figure id="figure-min-fong-hong">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_mfh.jpg" alt="" width="100%" >
+&lt;figcaption>
+Min-Fong Hong
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://scholar.google.com/citations?user=zbhpHsYAAAAJ" target="_blank" rel="noopener">
+&lt;figure id="figure-hao-yun-chen">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_hyc.jpg" alt="" width="100%" >
+&lt;figcaption>
+Hao-Yun Chen
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">
+&lt;figure id="figure-min-hung-chen">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_me.jpg" alt="" width="100%" >
+&lt;figcaption>
+Min-Hung Chen
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://xusean0118.github.io/" target="_blank" rel="noopener">
+&lt;figure id="figure-yu-syuan-xu">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_ysx.jpg" alt="" width="100%" >
+&lt;figcaption>
+Yu-Syuan Xu
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://scholar.google.com/citations?user=EeVsWaUAAAAJ" target="_blank" rel="noopener">
+&lt;figure id="figure-hsien-kai-kuo">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_hkk.jpg" alt="" width="100%" >
+&lt;figcaption>
+Hsien-Kai Kuo
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://scholar.google.com.tw/citations?user=XomuoxsAAAAJ" target="_blank" rel="noopener">
+&lt;figure id="figure-yi-min-tsai">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_ymt.jpg" alt="" width="100%" >
+&lt;figcaption>
+Yi-Min Tsai
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.linkedin.com/in/hung-jen-hj-chen-a3620ab4/" target="_blank" rel="noopener">
+&lt;figure id="figure-hung-jen-chen">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_hjc.jpg" alt="" width="100%" >
+&lt;figcaption>
+Hung-Jen Chen
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="">
+&lt;figure id="figure-kevin-jou">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_kj.jpg" alt="" width="100%" >
+&lt;figcaption>
+Kevin Jou
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>Bridging Distributional Discrepancy with Temporal Dynamics for Video Understanding</title><link>https://minhungchen.netlify.app/publication/phd/</link><pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate><guid>https://minhungchen.netlify.app/publication/phd/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdown slides feature.
+&lt;/div>
+&lt;/div>
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). -->
+&lt;h2 id="resources">Resources&lt;/h2>
+&lt;figure id="figure-dissertationhttpssmartechgatecheduhandle185363572">
+&lt;a href="https://smartech.gatech.edu/handle/1853/63572">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="15%" >
+&lt;/a>
+&lt;figcaption>
+&lt;a href="https://smartech.gatech.edu/handle/1853/63572">&lt;strong>Dissertation&lt;/strong>&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;figure id="figure-code-ts-lstmhttpsgithubcomchihyaomaactivity-recognition-with-cnn-and-rnn">
+&lt;a href="https://github.com/chihyaoma/Activity-Recognition-with-CNN-and-RNN">
+&lt;img src="https://minhungchen.netlify.app/img/github_icon.png" alt="" width="80%" >
+&lt;/a>
+&lt;figcaption>
+&lt;a href="https://github.com/chihyaoma/Activity-Recognition-with-CNN-and-RNN">Code (TS-LSTM)&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/th>
+&lt;th>
+&lt;figure id="figure-code-ta3nhttpsgithubcomcmhungsteveta3n">
+&lt;a href="https://github.com/cmhungsteve/TA3N">
+&lt;img src="https://minhungchen.netlify.app/img/github_icon.png" alt="" width="80%" >
+&lt;/a>
+&lt;figcaption>
+&lt;a href="https://github.com/cmhungsteve/TA3N">Code (TA3N)&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/th>
+&lt;th>
+&lt;figure id="figure-code-sstdahttpsgithubcomcmhungstevesstda">
+&lt;a href="https://github.com/cmhungsteve/SSTDA">
+&lt;img src="https://minhungchen.netlify.app/img/github_icon.png" alt="" width="80%" >
+&lt;/a>
+&lt;figcaption>
+&lt;a href="https://github.com/cmhungsteve/SSTDA">Code (SSTDA)&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="citation">Citation&lt;/h2>
+&lt;p>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">&lt;strong>Min-Hung Chen&lt;/strong>&lt;/a>, &amp;ldquo;Bridging Distributional Discrepancy with Temporal Dynamics for Video Understanding&amp;rdquo;, &lt;em>PhD Dissertation, Georgia Institute of Technology&lt;/em>, 2020.&lt;/p>
+&lt;h4 id="bibtex">BibTex&lt;/h4>
+&lt;pre>&lt;code>@phdthesis{chen2020bridging,
+title={Bridging Distributional Discrepancy with Temporal Dynamics for Video Understanding},
+author={Chen, Min-Hung},
+year={2020},
+school={Georgia Institute of Technology}
+}
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h2 id="members">Members&lt;/h2>
+&lt;p>&lt;strong>Georgia Institute of Technology&lt;/strong>&lt;/p>
+&lt;p>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">
+&lt;figure id="figure-min-hung-chen">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_me.jpg" alt="" width="20%" >
+&lt;figcaption>
+Min-Hung Chen
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/p></description></item><item><title>Action Segmentation with Joint Self-Supervised Temporal Domain Adaptation</title><link>https://minhungchen.netlify.app/publication/sstda/</link><pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate><guid>https://minhungchen.netlify.app/publication/sstda/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdown slides feature.
+&lt;/div>
+&lt;/div>
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). -->
+&lt;h2 id="videos">Videos&lt;/h2>
+&lt;p>Overview introduction with less technical details:
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/HxPYhOZco-4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;p>1-min talk video:
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/sKCXZksFOWA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;h2 id="hahahugoshortcode-s4-hbhb">5-min talk video:
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/16OTdVeKahs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/h2>
+&lt;h2 id="resources">Resources&lt;/h2>
+&lt;p>
+&lt;a href="https://github.com/cmhungsteve/SSTDA" target="_blank" rel="noopener">
+&lt;figure id="figure-codehttpsgithubcomcmhungstevesstda">
+&lt;img src="https://minhungchen.netlify.app/img/github_icon.png" alt="" width="15%" >
+&lt;figcaption>
+&lt;a href="https://github.com/cmhungsteve/SSTDA">&lt;strong>Code&lt;/strong>&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;a href="https://arxiv.org/pdf/2003.02824.pdf" target="_blank" rel="noopener">
+&lt;figure id="figure-paperhttpsarxivorgpdf200302824pdf">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="40%" >
+&lt;figcaption>
+&lt;a href="https://arxiv.org/pdf/2003.02824.pdf">Paper&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.dropbox.com/s/xj37x5xpmqg70ln/Spotlight_SSTDA_CVPR_2020_mute.pdf?dl=0" target="_blank" rel="noopener">
+&lt;figure id="figure-slides-1-min-talkhttpswwwdropboxcomsxj37x5xpmqg70lnspotlight_sstda_cvpr_2020_mutepdfdl0">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="40%" >
+&lt;figcaption>
+&lt;a href="https://www.dropbox.com/s/xj37x5xpmqg70ln/Spotlight_SSTDA_CVPR_2020_mute.pdf?dl=0">Slides (1-min talk)&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.dropbox.com/s/o2d192zb3his06r/Oral_SSTDA_CVPR_2020_mute.pdf?dl=0" target="_blank" rel="noopener">
+&lt;figure id="figure-slides-5-min-talkhttpswwwdropboxcomso2d192zb3his06roral_sstda_cvpr_2020_mutepdfdl0">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="40%" >
+&lt;figcaption>
+&lt;a href="https://www.dropbox.com/s/o2d192zb3his06r/Oral_SSTDA_CVPR_2020_mute.pdf?dl=0">Slides (5-min talk)&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.dropbox.com/s/fm6cmwgzrjslvbd/CVPR2020_Steve_SSTDA_poster_v1.pdf?dl=0" target="_blank" rel="noopener">
+&lt;figure id="figure-posterhttpswwwdropboxcomsfm6cmwgzrjslvbdcvpr2020_steve_sstda_poster_v1pdfdl0">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="40%" >
+&lt;figcaption>
+&lt;a href="https://www.dropbox.com/s/fm6cmwgzrjslvbd/CVPR2020_Steve_SSTDA_poster_v1.pdf?dl=0">Poster&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;p>Other Links:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="http://openaccess.thecvf.com/content_CVPR_2020/html/Chen_Action_Segmentation_With_Joint_Self-Supervised_Temporal_Domain_Adaptation_CVPR_2020_paper.html" target="_blank" rel="noopener">CVF Open Access&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://ieeexplore.ieee.org/document/9157452" target="_blank" rel="noopener">IEEE Xplore&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://mlgt-at-cvpr-2020.mailchimpsites.com/" target="_blank" rel="noopener">GT@CVPR'20&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="citation">Citation&lt;/h2>
+&lt;p>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">&lt;strong>Min-Hung Chen&lt;/strong>&lt;/a>,
+&lt;a href="https://dblp.org/pers/l/Li:Baopu.html" target="_blank" rel="noopener">Baopu Li&lt;/a>,
+&lt;a href="https://scholar.google.com/citations?user=WiAQC68AAAAJ" target="_blank" rel="noopener">Yingze Bao&lt;/a>,
+&lt;a href="https://ghassanalregib.info/" target="_blank" rel="noopener">Ghassan AlRegib&lt;/a>, and
+&lt;a href="https://www.cc.gatech.edu/~zk15/" target="_blank" rel="noopener">Zsolt Kira&lt;/a>, &amp;ldquo;Action Segmentation with Joint Self-Supervised Temporal Domain Adaptation&amp;rdquo;,
+&lt;a href="http://cvpr2020.thecvf.com/" target="_blank" rel="noopener">&lt;em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)&lt;/em>, 2020&lt;/a>.&lt;/p>
+&lt;h4 id="bibtex">BibTex&lt;/h4>
+&lt;pre>&lt;code>@inproceedings{chen2020action,
+title={Action Segmentation with Joint Self-Supervised Temporal Domain Adaptation},
+author={Chen, Min-Hung and Li, Baopu and Bao, Yingze and AlRegib, Ghassan and Kira, Zsolt},
+booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+year={2020}
+}
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h2 id="members">Members&lt;/h2>
+&lt;p>&lt;strong>&lt;sup>1&lt;/sup>Georgia Institute of Technology   &lt;sup>2&lt;/sup>Baidu USA &lt;br>&lt;/strong>
+*work done during an internship at Baidu USA&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">
+&lt;figure id="figure-min-hung-chensup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_me.jpg" alt="" width="100%" >
+&lt;figcaption>
+Min-Hung Chen&lt;sup>1&lt;/sup>*
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://dblp.org/pers/l/Li:Baopu.html" target="_blank" rel="noopener">
+&lt;figure id="figure-baopu-lisup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_bl.jpg" alt="" width="100%" >
+&lt;figcaption>
+Baopu Li&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://scholar.google.com/citations?user=WiAQC68AAAAJ" target="_blank" rel="noopener">
+&lt;figure id="figure-yingze-baosup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_yb.jpg" alt="" width="100%" >
+&lt;figcaption>
+Yingze Bao&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://ghassanalregib.info/" target="_blank" rel="noopener">
+&lt;figure id="figure-ghassan-alregibsup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_ga.jpg" alt="" width="100%" >
+&lt;figcaption>
+Ghassan AlRegib&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.cc.gatech.edu/~zk15/" target="_blank" rel="noopener">
+&lt;figure id="figure-zsolt-kirasup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_zk.jpg" alt="" width="100%" >
+&lt;figcaption>
+Zsolt Kira&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>Interpretable Self-Attention Temporal Reasoning for Driving Behavior Understanding</title><link>https://minhungchen.netlify.app/publication/trb/</link><pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate><guid>https://minhungchen.netlify.app/publication/trb/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdown slides feature.
+&lt;/div>
+&lt;/div>
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). -->
+&lt;h2 id="resources">Resources&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;figure id="figure-paper-arxivhttpsarxivorgftparxivpapers1911191102172pdf">
+&lt;a href="https://arxiv.org/ftp/arxiv/papers/1911/1911.02172.pdf">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="25%" >
+&lt;/a>
+&lt;figcaption>
+&lt;a href="https://arxiv.org/ftp/arxiv/papers/1911/1911.02172.pdf">Paper (arXiv)&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/th>
+&lt;th>
+&lt;figure id="figure-slideshttpssigportorgsitesdefaultfilesdocsinterpretable20self-attention20temporal20reasoning20for20driving20behavior20understandingpdf">
+&lt;a href="https://sigport.org/sites/default/files/docs/INTERPRETABLE%20SELF-ATTENTION%20TEMPORAL%20REASONING%20FOR%20DRIVING%20BEHAVIOR%20UNDERSTANDING.pdf">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="25%" >
+&lt;/a>
+&lt;figcaption>
+&lt;a href="https://sigport.org/sites/default/files/docs/INTERPRETABLE%20SELF-ATTENTION%20TEMPORAL%20REASONING%20FOR%20DRIVING%20BEHAVIOR%20UNDERSTANDING.pdf">Slides&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;p>Other Links:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://ieeexplore.ieee.org/abstract/document/9053783" target="_blank" rel="noopener">IEEE Xplore&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="citation">Citation&lt;/h2>
+&lt;p>
+&lt;a href="https://www.linkedin.com/in/ejliu617/" target="_blank" rel="noopener">Yi-Chieh Liu*&lt;/a>,
+&lt;a href="https://www.linkedin.com/in/yhsieh37/" target="_blank" rel="noopener">Yung-An Hsieh*&lt;/a>,
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">&lt;strong>Min-Hung Chen&lt;/strong>&lt;/a>,
+&lt;a href="https://www.linkedin.com/in/huckyang/" target="_blank" rel="noopener">Chao-Han (Huck) Yang&lt;/a>,
+&lt;a href="https://scholar.google.se/citations?hl=en&amp;amp;user=_DUppAgAAAAJ" target="_blank" rel="noopener">Jesper Tegner&lt;/a>, and
+&lt;a href="https://scholar.google.com/citations?user=S41zwP4AAAAJ" target="_blank" rel="noopener">Yi-Chang (James) Tsai&lt;/a>, &amp;ldquo;Interpretable Self-Attention Temporal Reasoning for Driving Behavior Understanding&amp;rdquo;,
+&lt;a href="https://2020.ieeeicassp.org/" target="_blank" rel="noopener">&lt;em>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)&lt;/em>, 2020&lt;/a>. (*equal contribution)&lt;/p>
+&lt;h4 id="bibtex">BibTex&lt;/h4>
+&lt;pre>&lt;code>@inproceedings{liu2020interpretable,
+title={Interpretable Self-Attention Temporal Reasoning for Driving Behavior Understanding},
+author={Liu, Yi-Chieh and Hsieh, Yung-An and Chen, Min-Hung and Yang, C-H Huck and Tegner, Jesper and Tsai, Y-C James},
+booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+year={2020}
+}
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h2 id="members">Members&lt;/h2>
+&lt;p>&lt;strong>&lt;sup>1&lt;/sup>Georgia Institute of Technology   &lt;sup>2&lt;/sup>KAUST &lt;br>&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;a href="https://www.linkedin.com/in/ejliu617/" target="_blank" rel="noopener">
+&lt;figure id="figure-yi-chieh-liusup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_ycl.jpg" alt="" width="100%" >
+&lt;figcaption>
+Yi-Chieh Liu&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.linkedin.com/in/yhsieh37/" target="_blank" rel="noopener">
+&lt;figure id="figure-yung-an-hsiehsup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_yah.jpg" alt="" width="100%" >
+&lt;figcaption>
+Yung-An Hsieh&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">
+&lt;figure id="figure-min-hung-chensup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_me.jpg" alt="" width="100%" >
+&lt;figcaption>
+Min-Hung Chen&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.linkedin.com/in/huckyang/" target="_blank" rel="noopener">
+&lt;figure id="figure-huck-yangsup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_chy.jpg" alt="" width="100%" >
+&lt;figcaption>
+Huck Yang&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://scholar.google.se/citations?hl=en&amp;amp;user=_DUppAgAAAAJ" target="_blank" rel="noopener">
+&lt;figure id="figure-jesper-tegnersup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_jt.jpg" alt="" width="100%" >
+&lt;figcaption>
+Jesper Tegner&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://scholar.google.com/citations?user=S41zwP4AAAAJ" target="_blank" rel="noopener">
+&lt;figure id="figure-james-tsaisup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_yct.jpg" alt="" width="100%" >
+&lt;figcaption>
+James Tsai&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>Action Segmentation with Mixed Temporal Domain Adaptation</title><link>https://minhungchen.netlify.app/publication/mtda/</link><pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate><guid>https://minhungchen.netlify.app/publication/mtda/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdown slides feature.
+&lt;/div>
+&lt;/div>
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). -->
+&lt;h2 id="videos">Videos&lt;/h2>
+&lt;h2 id="hahahugoshortcode-s2-hbhb">
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/RkdhHDvj4UA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/h2>
+&lt;h2 id="resources">Resources&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;a href="http://openaccess.thecvf.com/content_WACV_2020/papers/Chen_Action_Segmentation_with_Mixed_Temporal_Domain_Adaptation_WACV_2020_paper.pdf" target="_blank" rel="noopener">
+&lt;figure id="figure-paperhttpopenaccessthecvfcomcontent_wacv_2020paperschen_action_segmentation_with_mixed_temporal_domain_adaptation_wacv_2020_paperpdf">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="40%" >
+&lt;figcaption>
+&lt;a href="http://openaccess.thecvf.com/content_WACV_2020/papers/Chen_Action_Segmentation_with_Mixed_Temporal_Domain_Adaptation_WACV_2020_paper.pdf">Paper&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.dropbox.com/s/24yi5ygs68mqbhc/Oral_MTDA_WACV_2020_mute.pdf?dl=0" target="_blank" rel="noopener">
+&lt;figure id="figure-slideshttpswwwdropboxcoms24yi5ygs68mqbhcoral_mtda_wacv_2020_mutepdfdl0">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="40%" >
+&lt;figcaption>
+&lt;a href="https://www.dropbox.com/s/24yi5ygs68mqbhc/Oral_MTDA_WACV_2020_mute.pdf?dl=0">Slides&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.dropbox.com/s/74or0hkkodhiqzc/WACV2020_Steve_MTDA_poster_v1.pdf?dl=0" target="_blank" rel="noopener">
+&lt;figure id="figure-posterhttpswwwdropboxcoms74or0hkkodhiqzcwacv2020_steve_mtda_poster_v1pdfdl0">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="40%" >
+&lt;figcaption>
+&lt;a href="https://www.dropbox.com/s/74or0hkkodhiqzc/WACV2020_Steve_MTDA_poster_v1.pdf?dl=0">Poster&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;p>Other Links:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="http://openaccess.thecvf.com/content_WACV_2020/html/Chen_Action_Segmentation_with_Mixed_Temporal_Domain_Adaptation_WACV_2020_paper.html" target="_blank" rel="noopener">CVF Open Access&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://ieeexplore.ieee.org/document/9093535" target="_blank" rel="noopener">IEEE Xplore&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="citation">Citation&lt;/h2>
+&lt;p>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">&lt;strong>Min-Hung Chen&lt;/strong>&lt;/a>,
+&lt;a href="https://dblp.org/pers/l/Li:Baopu.html" target="_blank" rel="noopener">Baopu Li&lt;/a>,
+&lt;a href="https://scholar.google.com/citations?user=WiAQC68AAAAJ" target="_blank" rel="noopener">Yingze Bao&lt;/a>, and
+&lt;a href="https://ghassanalregib.info/" target="_blank" rel="noopener">Ghassan AlRegib&lt;/a>, &amp;ldquo;Action Segmentation with Mixed Temporal Domain Adaptation&amp;rdquo;,
+&lt;a href="http://wacv20.wacv.net/" target="_blank" rel="noopener">&lt;em>IEEE Winter Conference on Applications of Computer Vision (WACV)&lt;/em>, 2020&lt;/a>.&lt;/p>
+&lt;h4 id="bibtex">BibTex&lt;/h4>
+&lt;pre>&lt;code>@inproceedings{chen2020mixed,
+title={Action Segmentation with Mixed Temporal Domain Adaptation},
+author={Chen, Min-Hung and Li, Baopu and Bao, Yingze and AlRegib, Ghassan},
+booktitle={IEEE Winter Conference on Applications of Computer Vision (WACV)},
+year={2020}
+}
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h2 id="members">Members&lt;/h2>
+&lt;p>&lt;strong>&lt;sup>1&lt;/sup>Georgia Institute of Technology   &lt;sup>2&lt;/sup>Baidu USA &lt;br>&lt;/strong>
+*work done during an internship at Baidu USA&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">
+&lt;figure id="figure-min-hung-chensup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_me.jpg" alt="" width="100%" >
+&lt;figcaption>
+Min-Hung Chen&lt;sup>1&lt;/sup>*
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://dblp.org/pers/l/Li:Baopu.html" target="_blank" rel="noopener">
+&lt;figure id="figure-baopu-lisup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_bl.jpg" alt="" width="100%" >
+&lt;figcaption>
+Baopu Li&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://scholar.google.com/citations?user=WiAQC68AAAAJ" target="_blank" rel="noopener">
+&lt;figure id="figure-yingze-baosup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_yb.jpg" alt="" width="100%" >
+&lt;figcaption>
+Yingze Bao&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://ghassanalregib.info/" target="_blank" rel="noopener">
+&lt;figure id="figure-ghassan-alregibsup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_ga.jpg" alt="" width="100%" >
+&lt;figcaption>
+Ghassan AlRegib&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>Color learning</title><link>https://minhungchen.netlify.app/publication/colortsd/</link><pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate><guid>https://minhungchen.netlify.app/publication/colortsd/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdown slides feature.
+&lt;/div>
+&lt;/div>
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). -->
+&lt;h2 id="citation">Citation&lt;/h2>
+&lt;p>
+&lt;a href="https://ghassanalregib.info/" target="_blank" rel="noopener">Ghassan AlRegib&lt;/a>,
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">&lt;strong>Min-Hung Chen&lt;/strong>&lt;/a>,
+&lt;a href="https://www.linkedin.com/in/david-mccreadie-4b603643/" target="_blank" rel="noopener">David McCreadie&lt;/a>, and
+&lt;a href="https://www.linkedin.com/in/bostondaniel/" target="_blank" rel="noopener">Daniel Lewis Boston&lt;/a>, &amp;ldquo;Color learning&amp;rdquo;,
+&lt;a href="https://patents.google.com/patent/US10552692B2" target="_blank" rel="noopener">&lt;em>US Patent 10552692&lt;/em>, 2020&lt;/a>.&lt;/p>
+&lt;h4 id="bibtex">BibTex&lt;/h4>
+&lt;pre>&lt;code>@misc{alregib2020color,
+title={Color learning},
+author={AlRegib, Ghassan and Chen, Min-Hung and McCreadie, David and },
+year={2020},
+month=February,
+publisher={Google Patents},
+note={US Patent 10552692}
+}
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h2 id="members">Members&lt;/h2>
+&lt;p>&lt;strong>&lt;sup>1&lt;/sup>Georgia Institute of Technology   &lt;sup>2&lt;/sup>Ford Motor Company &lt;br>&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;a href="https://ghassanalregib.info/" target="_blank" rel="noopener">
+&lt;figure id="figure-ghassan-alregibsup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_ga.jpg" alt="" width="100%" >
+&lt;figcaption>
+Ghassan AlRegib&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">
+&lt;figure id="figure-min-hung-chensup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_me.jpg" alt="" width="100%" >
+&lt;figcaption>
+Min-Hung Chen&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.linkedin.com/in/david-mccreadie-4b603643/" target="_blank" rel="noopener">
+&lt;figure id="figure-david-mccreadiesup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_unknown.jpg" alt="" width="100%" >
+&lt;figcaption>
+David McCreadie&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.linkedin.com/in/bostondaniel/" target="_blank" rel="noopener">
+&lt;figure id="figure-daniel-bostonsup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_db.jpg" alt="" width="100%" >
+&lt;figcaption>
+Daniel Boston&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>Temporal Attentive Alignment for Large-Scale Video Domain Adaptation</title><link>https://minhungchen.netlify.app/publication/ta3n/</link><pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate><guid>https://minhungchen.netlify.app/publication/ta3n/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdown slides feature.
+&lt;/div>
+&lt;/div>
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). -->
+&lt;h2 id="videos">Videos&lt;/h2>
+&lt;p>Oral Video (please turn on closed captions):
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/j9cDuzmpYP8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;hr>
+&lt;h2 id="resources">Resources&lt;/h2>
+&lt;figure id="figure-codehttpsgithubcomcmhungsteveta3n">
+&lt;a href="https://github.com/cmhungsteve/TA3N">
+&lt;img src="https://minhungchen.netlify.app/img/github_icon.png" alt="" width="15%" >
+&lt;/a>
+&lt;figcaption>
+&lt;a href="https://github.com/cmhungsteve/TA3N">&lt;strong>Code&lt;/strong>&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;figure id="figure-paperhttpsarxivorgpdf190712743pdf">
+&lt;a href="https://arxiv.org/pdf/1907.12743.pdf">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="40%" >
+&lt;/a>
+&lt;figcaption>
+&lt;a href="https://arxiv.org/pdf/1907.12743.pdf">Paper&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/th>
+&lt;th>
+&lt;figure id="figure-slideshttpswwwdropboxcomss9ud77a1zt0vqbnoral_ta3n_iccv_2019_mutepdfdl0">
+&lt;a href="https://www.dropbox.com/s/s9ud77a1zt0vqbn/Oral_TA3N_ICCV_2019_mute.pdf?dl=0">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="40%" >
+&lt;/a>
+&lt;figcaption>
+&lt;a href="https://www.dropbox.com/s/s9ud77a1zt0vqbn/Oral_TA3N_ICCV_2019_mute.pdf?dl=0">Slides&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/th>
+&lt;th>
+&lt;figure id="figure-posterhttpswwwdropboxcomsg16v02k9sgn1xibiccv2019_steve_ta3n_poster_v1_2pdfdl0">
+&lt;a href="https://www.dropbox.com/s/g16v02k9sgn1xib/ICCV2019_Steve_TA3N_poster_v1_2.pdf?dl=0">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="40%" >
+&lt;/a>
+&lt;figcaption>
+&lt;a href="https://www.dropbox.com/s/g16v02k9sgn1xib/ICCV2019_Steve_TA3N_poster_v1_2.pdf?dl=0">Poster&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;p>Other Links:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="http://openaccess.thecvf.com/content_ICCV_2019/html/Chen_Temporal_Attentive_Alignment_for_Large-Scale_Video_Domain_Adaptation_ICCV_2019_paper.html" target="_blank" rel="noopener">CVF Open Access&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://ieeexplore.ieee.org/document/9008391" target="_blank" rel="noopener">IEEE Xplore&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://mlatgt.blog/2019/09/10/overcoming-large-scale-annotation-requirements-for-understanding-videos-in-the-wild" target="_blank" rel="noopener">ML@GT Blog&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://mailchi.mp/4ed0cbf6a67d/iccv2019" target="_blank" rel="noopener">GT@ICCV'19&lt;/a>&lt;/li>
+&lt;li>CVPR workshop on Learning from Unlabeled Videos (LUV) [
+&lt;a href="https://sites.google.com/view/luv2019/program" target="_blank" rel="noopener">CVPRW'19&lt;/a> ]&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="citation">Citation&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">&lt;strong>Min-Hung Chen&lt;/strong>&lt;/a>,
+&lt;a href="https://www.cc.gatech.edu/~zk15/" target="_blank" rel="noopener">Zsolt Kira&lt;/a>,
+&lt;a href="https://ghassanalregib.info/" target="_blank" rel="noopener">Ghassan AlRegib&lt;/a>,
+&lt;a href="https://www.linkedin.com/in/jaekwon-yoo-8685862b/" target="_blank" rel="noopener">Jaekwon Yoo&lt;/a>,
+&lt;a href="%28https://www.linkedin.com/in/ruxin-chen-991477119/%29">Ruxin Chen&lt;/a>, and
+&lt;a href="https://scholar.google.com/citations?user=5YR6dTEAAAAJ" target="_blank" rel="noopener">Jian Zheng&lt;/a>, &amp;ldquo;Temporal Attentive Alignment for Large-Scale Video Domain Adaptation&amp;rdquo;,
+&lt;a href="http://iccv2019.thecvf.com/" target="_blank" rel="noopener">&lt;em>IEEE International Conference on Computer Vision (ICCV)&lt;/em>, 2019&lt;/a> &lt;strong>[Oral (acceptance rate: 4.6%), travel grant awarded]&lt;/strong>.&lt;/li>
+&lt;li>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">&lt;strong>Min-Hung Chen&lt;/strong>&lt;/a>,
+&lt;a href="https://www.cc.gatech.edu/~zk15/" target="_blank" rel="noopener">Zsolt Kira&lt;/a>, and
+&lt;a href="https://ghassanalregib.info/" target="_blank" rel="noopener">Ghassan AlRegib&lt;/a>, &amp;ldquo;Temporal Attentive Alignment for Video Domain Adaptation&amp;rdquo;,
+&lt;a href="https://sites.google.com/view/luv2019" target="_blank" rel="noopener">&lt;em>CVPR Workshop on Learning from Unlabeled Videos (LUV)&lt;/em>, 2019&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h4 id="bibtex">BibTex&lt;/h4>
+&lt;pre>&lt;code>@inproceedings{chen2019temporal,
+title={Temporal attentive alignment for large-scale video domain adaptation},
+author={Chen, Min-Hung and Kira, Zsolt and AlRegib, Ghassan and Yoo, Jaekwon and Chen, Ruxin and Zheng, Jian},
+booktitle={IEEE International Conference on Computer Vision (ICCV)},
+year={2019}
+}
+@article{chen2019taaan,
+title={Temporal Attentive Alignment for Video Domain Adaptation},
+author={Chen, Min-Hung and Kira, Zsolt and AlRegib, Ghassan},
+journal={CVPR Workshop on Learning from Unlabeled Videos},
+year={2019},
+url={https://arxiv.org/abs/1905.10861}
+}
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h2 id="members">Members&lt;/h2>
+&lt;p>&lt;strong>&lt;sup>1&lt;/sup>Georgia Institute of Technology   &lt;sup>2&lt;/sup>Sony Interactive Entertainment LLC   &lt;sup>3&lt;/sup>Binghamton University &lt;br>&lt;/strong>
+*work partially done as a SIE intern&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">
+&lt;figure id="figure-min-hung-chensup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_me.jpg" alt="" width="100%" >
+&lt;figcaption>
+Min-Hung Chen&lt;sup>1&lt;/sup>*
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.cc.gatech.edu/~zk15/" target="_blank" rel="noopener">
+&lt;figure id="figure-zsolt-kirasup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_zk.jpg" alt="" width="100%" >
+&lt;figcaption>
+Zsolt Kira&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://ghassanalregib.info/" target="_blank" rel="noopener">
+&lt;figure id="figure-ghassan-alregibsup1sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_ga.jpg" alt="" width="100%" >
+&lt;figcaption>
+Ghassan AlRegib&lt;sup>1&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.linkedin.com/in/jaekwon-yoo-8685862b/" target="_blank" rel="noopener">
+&lt;figure id="figure-jaekwon-yoosup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_unknown.jpg" alt="" width="100%" >
+&lt;figcaption>
+Jaekwon Yoo&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.linkedin.com/in/ruxin-chen-991477119/" target="_blank" rel="noopener">
+&lt;figure id="figure-ruxin-chensup2sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_unknown.jpg" alt="" width="100%" >
+&lt;figcaption>
+Ruxin Chen&lt;sup>2&lt;/sup>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://scholar.google.com/citations?user=5YR6dTEAAAAJ" target="_blank" rel="noopener">
+&lt;figure id="figure-jian-zhengsup3sup">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_jz.jpg" alt="" width="100%" >
+&lt;figcaption>
+Jian Zheng&lt;sup>3&lt;/sup>*
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>Traffic Sign Detection Under Challenging Conditions: A Deeper Look into Performance Variations and Spectral Characteristics</title><link>https://minhungchen.netlify.app/publication/curetsd/</link><pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate><guid>https://minhungchen.netlify.app/publication/curetsd/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdown slides feature.
+&lt;/div>
+&lt;/div>
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). -->
+&lt;h2 id="demo-videos">Demo Videos&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>Real data:
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/8V1LcpDlmjA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Synthetic data:
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/bKnlJ_EWS8Q" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="resources">Resources&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;figure id="figure-githubhttpsgithubcomolivesgatechcure-tsd">
+&lt;a href="https://github.com/olivesgatech/CURE-TSD">
+&lt;img src="https://minhungchen.netlify.app/img/github_icon.png" alt="" width="65%" >
+&lt;/a>
+&lt;figcaption>
+&lt;a href="https://github.com/olivesgatech/CURE-TSD">&lt;strong>GitHub&lt;/strong>&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/th>
+&lt;th>
+&lt;a href="https://arxiv.org/pdf/1908.11262.pdf" target="_blank" rel="noopener">
+&lt;figure id="figure-paper-arxivhttpsarxivorgpdf190811262pdf">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="15%" >
+&lt;figcaption>
+&lt;a href="https://arxiv.org/pdf/1908.11262.pdf">Paper (arXiv)&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;p>Other Links:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://ieeexplore.ieee.org/document/8793235" target="_blank" rel="noopener">IEEE Xplore&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="citation">Citation&lt;/h2>
+&lt;p>
+&lt;a href="http://cantemel.com/" target="_blank" rel="noopener">Dogancan Temel&lt;/a>,
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">&lt;strong>Min-Hung Chen&lt;/strong>&lt;/a>, and
+&lt;a href="https://ghassanalregib.info/" target="_blank" rel="noopener">Ghassan AlRegib&lt;/a>, &amp;ldquo;Traffic Sign Detection under Challenging Conditions: A Deeper Look Into Performance Variations and Spectral Characteristics&amp;rdquo;,
+&lt;a href="https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=6979" target="_blank" rel="noopener">&lt;em>IEEE Transactions on Intelligent Transportation Systems (TITS)&lt;/em>, 2019&lt;/a>.&lt;/p>
+&lt;h4 id="bibtex">BibTex&lt;/h4>
+&lt;pre>&lt;code>@article{temel2019traffic,
+title={Traffic sign detection under challenging conditions: A deeper look into performance variations and spectral characteristics},
+author={Temel, Dogancan and Chen, Min-Hung and AlRegib, Ghassan},
+journal={IEEE Transactions on Intelligent Transportation Systems (TITS)},
+year={2019},
+publisher={IEEE}
+}
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h2 id="members">Members&lt;/h2>
+&lt;p>&lt;strong>Georgia Institute of Technology &lt;br>&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;a href="http://cantemel.com/" target="_blank" rel="noopener">
+&lt;figure id="figure-dogancan-temel">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_ct.jpg" alt="" width="100%" >
+&lt;figcaption>
+Dogancan Temel
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">
+&lt;figure id="figure-min-hung-chen">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_me.jpg" alt="" width="100%" >
+&lt;figcaption>
+Min-Hung Chen
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://ghassanalregib.info/" target="_blank" rel="noopener">
+&lt;figure id="figure-ghassan-alregib">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_ga.jpg" alt="" width="100%" >
+&lt;figcaption>
+Ghassan AlRegib
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>TS-LSTM and temporal-inception: Exploiting spatiotemporal dynamics for activity recognition</title><link>https://minhungchen.netlify.app/publication/tslstm/</link><pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate><guid>https://minhungchen.netlify.app/publication/tslstm/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdown slides feature.
+&lt;/div>
+&lt;/div>
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). -->
+&lt;h2 id="demo-videos">Demo Videos&lt;/h2>
+&lt;p>Please check our
+&lt;a href="https://github.com/chihyaoma/Activity-Recognition-with-CNN-and-RNN" target="_blank" rel="noopener">GitHub&lt;/a>.&lt;/p>
+&lt;hr>
+&lt;h2 id="resources">Resources&lt;/h2>
+&lt;figure id="figure-codehttpsgithubcomchihyaomaactivity-recognition-with-cnn-and-rnn">
+&lt;a href="https://github.com/chihyaoma/Activity-Recognition-with-CNN-and-RNN">
+&lt;img src="https://minhungchen.netlify.app/img/github_icon.png" alt="" width="15%" >
+&lt;/a>
+&lt;figcaption>
+&lt;a href="https://github.com/chihyaoma/Activity-Recognition-with-CNN-and-RNN">&lt;strong>Code&lt;/strong>&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;figure id="figure-paper-arxivhttpsarxivorgabs170310667">
+&lt;a href="https://arxiv.org/abs/1703.10667">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="25%" >
+&lt;/a>
+&lt;figcaption>
+&lt;a href="https://arxiv.org/abs/1703.10667">Paper (arXiv)&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/th>
+&lt;th>
+&lt;figure id="figure-poster-mlgthttpswwwdropboxcoms1c7fsgr3ef1x9v6poster_tslstm-teminception_20170417pdfdl0">
+&lt;a href="https://www.dropbox.com/s/1c7fsgr3ef1x9v6/poster_TSLSTM-TemInception_20170417.pdf?dl=0">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="25%" >
+&lt;/a>
+&lt;figcaption>
+&lt;a href="https://www.dropbox.com/s/1c7fsgr3ef1x9v6/poster_TSLSTM-TemInception_20170417.pdf?dl=0">Poster (ML@GT)&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;p>Other Links:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://www.sciencedirect.com/science/article/abs/pii/S0923596518304922" target="_blank" rel="noopener">SPIC Journal&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="citation">Citation&lt;/h2>
+&lt;p>
+&lt;a href="https://chihyaoma.github.io/" target="_blank" rel="noopener">Chih-Yao Ma*&lt;/a>,
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">&lt;strong>Min-Hung Chen*&lt;/strong>&lt;/a>,
+&lt;a href="https://www.cc.gatech.edu/~zk15/" target="_blank" rel="noopener">Zsolt Kira&lt;/a>, and
+&lt;a href="https://ghassanalregib.info/" target="_blank" rel="noopener">Ghassan AlRegib&lt;/a>, &amp;ldquo;TS-LSTM and temporal-inception: Exploiting spatiotemporal dynamics for activity recognition&amp;rdquo;,
+&lt;a href="https://www.sciencedirect.com/journal/signal-processing-image-communication/vol/71/" target="_blank" rel="noopener">&lt;em>Signal Processing: Image Communication (SPIC)&lt;/em>, 2019&lt;/a>. (*equal contribution)&lt;/p>
+&lt;h4 id="bibtex">BibTex&lt;/h4>
+&lt;pre>&lt;code>@article{ma2019ts,
+title={TS-LSTM and temporal-inception: Exploiting spatiotemporal dynamics for activity recognition},
+author={Ma, Chih-Yao and Chen, Min-Hung and Kira, Zsolt and AlRegib, Ghassan},
+journal={Signal Processing: Image Communication},
+volume={71},
+pages={76--87},
+year={2019},
+publisher={Elsevier}
+}
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h2 id="members">Members&lt;/h2>
+&lt;p>&lt;strong>Georgia Institute of Technology &lt;br>&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;a href="https://chihyaoma.github.io/" target="_blank" rel="noopener">
+&lt;figure id="figure-chih-yao-ma">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_cym.jpg" alt="" width="100%" >
+&lt;figcaption>
+Chih-Yao Ma
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">
+&lt;figure id="figure-min-hung-chen">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_me.jpg" alt="" width="100%" >
+&lt;figcaption>
+Min-Hung Chen
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.cc.gatech.edu/~zk15/" target="_blank" rel="noopener">
+&lt;figure id="figure-zsolt-kira">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_zk.jpg" alt="" width="100%" >
+&lt;figcaption>
+Zsolt Kira
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://ghassanalregib.info/" target="_blank" rel="noopener">
+&lt;figure id="figure-ghassan-alregib">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_ga.jpg" alt="" width="100%" >
+&lt;figcaption>
+Ghassan AlRegib
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>Depth and Skeleton Associated Action Recognition without Online Accessible RGB-D Cameras</title><link>https://minhungchen.netlify.app/publication/mklda/</link><pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate><guid>https://minhungchen.netlify.app/publication/mklda/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdown slides feature.
+&lt;/div>
+&lt;/div>
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). -->
+&lt;h2 id="resources">Resources&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;figure id="figure-paperhttpswwwcv-foundationorgopenaccesscontent_cvpr_2014paperslin_depth_and_skeleton_2014_cvpr_paperpdf">
+&lt;a href="https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Lin_Depth_and_Skeleton_2014_CVPR_paper.pdf">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="40%" >
+&lt;/a>
+&lt;figcaption>
+&lt;a href="https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Lin_Depth_and_Skeleton_2014_CVPR_paper.pdf">Paper&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/th>
+&lt;th>
+&lt;figure id="figure-slidesslides_cvpr2014pdf">
+&lt;a href="slides_CVPR2014.pdf">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="40%" >
+&lt;/a>
+&lt;figcaption>
+&lt;a href="slides_CVPR2014.pdf">Slides&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/th>
+&lt;th>
+&lt;figure id="figure-posterposter_cvpr2014pdf">
+&lt;a href="poster_CVPR2014.pdf">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="40%" >
+&lt;/a>
+&lt;figcaption>
+&lt;a href="poster_CVPR2014.pdf">Poster&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;p>Other Links:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Lin_Depth_and_Skeleton_2014_CVPR_paper.html" target="_blank" rel="noopener">CVF Open Access&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://ieeexplore.ieee.org/document/6909731" target="_blank" rel="noopener">IEEE Xplore&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="citation">Citation&lt;/h2>
+&lt;p>
+&lt;a href="https://sites.google.com/site/yylinweb/" target="_blank" rel="noopener">Yen-Yu Lin&lt;/a>,
+&lt;a href="https://www.linkedin.com/in/juhsuanhua/" target="_blank" rel="noopener">Ju-Hsuan Hua&lt;/a>,
+&lt;a href="https://www.linkedin.com/in/nick-tang-18702933/" target="_blank" rel="noopener">Nick C. Tang&lt;/a>,
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">&lt;strong>Min-Hung Chen&lt;/strong>&lt;/a>, and
+&lt;a href="https://scholar.google.com/citations?user=_IXt8boAAAAJ" target="_blank" rel="noopener">Hong-Yuan (Mark) Liao&lt;/a>, &amp;ldquo;Depth and Skeleton Associated Action Recognition without Online Accessible RGB-D Cameras&amp;rdquo;,
+&lt;a href="http://www.pamitc.org/cvpr14/" target="_blank" rel="noopener">&lt;em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)&lt;/em>, 2014&lt;/a>.&lt;/p>
+&lt;h4 id="bibtex">BibTex&lt;/h4>
+&lt;pre>&lt;code>@inproceedings{lin2014depth,
+title={Depth and skeleton associated action recognition without online accessible rgb-d cameras},
+author={Lin, Yen-Yu and Hua, Ju-Hsuan and Tang, Nick C and Chen, Min-Hung and Mark Liao, Hong-Yuan},
+booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+year={2014}
+}
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h2 id="members">Members&lt;/h2>
+&lt;p>&lt;strong>Academia Sinica, Taiwan &lt;br>&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;a href="https://sites.google.com/site/yylinweb/" target="_blank" rel="noopener">
+&lt;figure id="figure-yen-yu-lin">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_yyl.jpg" alt="" width="100%" >
+&lt;figcaption>
+Yen-Yu Lin
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.linkedin.com/in/juhsuanhua/" target="_blank" rel="noopener">
+&lt;figure id="figure-ju-hsuan-hua">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_jhh.jpg" alt="" width="100%" >
+&lt;figcaption>
+Ju-Hsuan Hua
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.linkedin.com/in/nick-tang-18702933/" target="_blank" rel="noopener">
+&lt;figure id="figure-nick-tang">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_nt.jpg" alt="" width="100%" >
+&lt;figcaption>
+Nick Tang
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">
+&lt;figure id="figure-min-hung-chen">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_me.jpg" alt="" width="100%" >
+&lt;figcaption>
+Min-Hung Chen
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://scholar.google.com/citations?user=_IXt8boAAAAJ" target="_blank" rel="noopener">
+&lt;figure id="figure-mark-liao">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_hyl.jpg" alt="" width="100%" >
+&lt;figcaption>
+Mark Liao
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item></channel></rss>

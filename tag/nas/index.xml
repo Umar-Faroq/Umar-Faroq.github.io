@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NAS | Min-Hung Chen</title><link>https://minhungchen.netlify.app/tag/nas/</link><atom:link href="https://minhungchen.netlify.app/tag/nas/index.xml" rel="self" type="application/rss+xml"/><description>NAS</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Min-Hung Chen</copyright><lastBuildDate>Sun, 20 Jun 2021 00:00:00 +0000</lastBuildDate><image><url>https://minhungchen.netlify.app/img/authors/head_me.jpg</url><title>NAS</title><link>https://minhungchen.netlify.app/tag/nas/</link></image><item><title>Network Space Search for Pareto-Efficient Spaces</title><link>https://minhungchen.netlify.app/publication/nss/</link><pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate><guid>https://minhungchen.netlify.app/publication/nss/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdown slides feature.
+&lt;/div>
+&lt;/div>
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). -->
+&lt;h2 id="video">Video&lt;/h2>
+&lt;h2 id="hahahugoshortcode-s2-hbhb">2-min talk video:
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/N1ezhkxGTN8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/h2>
+&lt;h2 id="resources">Resources&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;figure id="figure-paper-arxivhttpsarxivorgpdf210411014pdf">
+&lt;a href="https://arxiv.org/pdf/2104.11014.pdf">
+&lt;img src="https://minhungchen.netlify.app/img/pdf_icon.png" alt="" width="15%" >
+&lt;/a>
+&lt;figcaption>
+&lt;a href="https://arxiv.org/pdf/2104.11014.pdf">Paper (arXiv)&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;p>Other Links:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://openaccess.thecvf.com/content/CVPR2021W/ECV/html/Hong_Network_Space_Search_for_Pareto-Efficient_Spaces_CVPRW_2021_paper.html" target="_blank" rel="noopener">CVF Open Access&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="">IEEE Xplore (to be updated)&lt;/a>&lt;/li>
+&lt;li>CVPR workshop on Efficient Deep Learning for Computer Vision (ECV) [
+&lt;a href="https://sites.google.com/view/ecv2021" target="_blank" rel="noopener">CVPRW'21&lt;/a> ]&lt;/li>
+&lt;li>
+&lt;a href="https://www.mediatek.com/blog/mediateks-summer-of-ai-at-cvpr-2021" target="_blank" rel="noopener">MediaTek Blog&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="citation">Citation&lt;/h2>
+&lt;p>
+&lt;a href="https://scholar.google.com/citations?user=QRZuu3AAAAAJ" target="_blank" rel="noopener">Min-Fong Hong&lt;/a>,
+&lt;a href="https://scholar.google.com/citations?user=zbhpHsYAAAAJ" target="_blank" rel="noopener">Hao-Yun Chen&lt;/a>,
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">&lt;strong>Min-Hung Chen&lt;/strong>&lt;/a>,
+&lt;a href="https://xusean0118.github.io/" target="_blank" rel="noopener">Yu-Syuan Xu&lt;/a>,
+&lt;a href="https://scholar.google.com/citations?user=EeVsWaUAAAAJ" target="_blank" rel="noopener">Hsien-Kai Kuo&lt;/a>,
+&lt;a href="https://scholar.google.com.tw/citations?user=XomuoxsAAAAJ" target="_blank" rel="noopener">Yi-Min Tsai&lt;/a>,
+&lt;a href="https://www.linkedin.com/in/hung-jen-hj-chen-a3620ab4/" target="_blank" rel="noopener">Hung-Jen Chen&lt;/a>, and Kevin Jou, &amp;ldquo;Network Space Search for Pareto-Efficient Spaces
+&amp;ldquo;,
+&lt;a href="https://sites.google.com/view/ecv2021" target="_blank" rel="noopener">&lt;em>CVPR Workshop on Efficient Deep Learning for Computer Vision (CVPRW)&lt;/em>, 2021&lt;/a> &lt;strong>[Oral]&lt;/strong>.&lt;/p>
+&lt;h4 id="bibtex">BibTex&lt;/h4>
+&lt;pre>&lt;code>@inproceedings{hong2021network,
+title={Network Space Search for Pareto-Efficient Spaces},
+author={Hong, Min-Fong and Chen, Hao-Yun and Chen, Min-Hung and Xu, Yu-Syuan and Kuo, Hsien-Kai and Tsai, Yi-Min and Chen, Hung-Jen and Jou, Kevin},
+booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops (Efficient Deep Learning for Computer Vision)},
+year={2021},
+url={https://arxiv.org/abs/2104.11014}
+}
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h2 id="members">Members&lt;/h2>
+&lt;p>&lt;strong>MediaTek Inc.&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>
+&lt;a href="https://scholar.google.com/citations?user=QRZuu3AAAAAJ" target="_blank" rel="noopener">
+&lt;figure id="figure-min-fong-hong">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_mfh.jpg" alt="" width="100%" >
+&lt;figcaption>
+Min-Fong Hong
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://scholar.google.com/citations?user=zbhpHsYAAAAJ" target="_blank" rel="noopener">
+&lt;figure id="figure-hao-yun-chen">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_hyc.jpg" alt="" width="100%" >
+&lt;figcaption>
+Hao-Yun Chen
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://minhungchen.netlify.app/" target="_blank" rel="noopener">
+&lt;figure id="figure-min-hung-chen">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_me.jpg" alt="" width="100%" >
+&lt;figcaption>
+Min-Hung Chen
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://xusean0118.github.io/" target="_blank" rel="noopener">
+&lt;figure id="figure-yu-syuan-xu">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_ysx.jpg" alt="" width="100%" >
+&lt;figcaption>
+Yu-Syuan Xu
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://scholar.google.com/citations?user=EeVsWaUAAAAJ" target="_blank" rel="noopener">
+&lt;figure id="figure-hsien-kai-kuo">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_hkk.jpg" alt="" width="100%" >
+&lt;figcaption>
+Hsien-Kai Kuo
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://scholar.google.com.tw/citations?user=XomuoxsAAAAJ" target="_blank" rel="noopener">
+&lt;figure id="figure-yi-min-tsai">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_ymt.jpg" alt="" width="100%" >
+&lt;figcaption>
+Yi-Min Tsai
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="https://www.linkedin.com/in/hung-jen-hj-chen-a3620ab4/" target="_blank" rel="noopener">
+&lt;figure id="figure-hung-jen-chen">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_hjc.jpg" alt="" width="100%" >
+&lt;figcaption>
+Hung-Jen Chen
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;th>
+&lt;a href="">
+&lt;figure id="figure-kevin-jou">
+&lt;img src="https://minhungchen.netlify.app/img/authors/head_kj.jpg" alt="" width="100%" >
+&lt;figcaption>
+Kevin Jou
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item></channel></rss>
